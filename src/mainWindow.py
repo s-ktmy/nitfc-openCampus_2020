@@ -19,6 +19,7 @@ class mainWindow:
         self.window.setCentralWidget(self.centralWidget.widget)
         QtCore.QMetaObject.connectSlotsByName(self.window)
 
+
     def show(self):
         self.window.show()
 

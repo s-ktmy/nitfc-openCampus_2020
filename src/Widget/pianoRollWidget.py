@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
-
+from ..const import *
 
 class pianoRollWidget:
 
@@ -19,7 +19,7 @@ class pianoRollWidget:
         self.widget.raise_()
 
         self.timer = QtCore.QTimer(parent)
-        self.timer.setInterval(20)
+        self.timer.setInterval(PIANOROLL_UPDATE_TIME)
         self.timer.setSingleShot(False)
         self.timer.timeout.connect(self.update)
 

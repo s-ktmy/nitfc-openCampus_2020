@@ -1,4 +1,6 @@
 from PyQt5 import QtCore, QtWidgets, QtGui
+from collections import deque
+from ..const import *
 
 
 class logViewerWidget:
@@ -7,4 +9,10 @@ class logViewerWidget:
         self.widget = QtWidgets.QTextBrowser(parent)
         self.widget.setGeometry(pos)
         self.widget.setObjectName(name)
+        self.log = deque()
 
+    def setText(self, text: str):
+        self.log.append(text)
+        if len(self.log) > LOG_ROW_NUMBER:
+            self.log.popleft()
+        self.widget.setText("\n".join(self.log))
