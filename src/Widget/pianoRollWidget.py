@@ -1,6 +1,7 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
 from ..const import *
 
+
 class pianoRollWidget:
 
     def __init__(self, parent: QtWidgets.QWidget, name: str, pos: QtCore.QRect):
@@ -33,9 +34,11 @@ class pianoRollDrawer(QtWidgets.QWidget):
 
     def __init__(self, parent=None):
         super(pianoRollDrawer, self).__init__(parent)
+        self.pianoRollImage = QtGui.QImage(r"assets\img\pianoroll.png")
 
     def paintEvent(self, a0: QtGui.QPaintEvent) -> None:
         painter = QtGui.QPainter(self)
+        painter.drawImage(0, 0, self.pianoRollImage)
         painter.setPen(QtCore.Qt.red)
         painter.setBrush(QtCore.Qt.yellow)
         painter.drawRect(10, 10, 100, 100)

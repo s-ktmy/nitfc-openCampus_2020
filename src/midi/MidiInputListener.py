@@ -3,6 +3,7 @@ from ..Widget import logViewerWidget
 from ..const import *
 from .MidiEventController import MidiEventController
 
+
 class MidiInputListener:
 
     def __init__(self, drawer: logViewerWidget):

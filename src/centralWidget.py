@@ -17,20 +17,20 @@ class centralWidget:
         self.pianoRollWidget = pianoRollWidget(
             parent=self.widget,
             name="pianoRoll",
-            pos=QtCore.QRect(10, 10, 701, 461)
+            pos=QtCore.QRect(10, 10, 701, 501)
         )
 
         self.logViewerWidget = logViewerWidget(
             parent=self.widget,
             name="logViewer",
-            pos=QtCore.QRect(10, 481, 981, 151)
+            pos=QtCore.QRect(10, 521, 981, 111)
         )
 
         self.configWidget = configWidget(
             parent=self.widget,
             name="configWidget",
             title="config",
-            pos=QtCore.QRect(719, 10, 271, 461)
+            pos=QtCore.QRect(719, 10, 271, 501)
         )
 
         self.MidiInputListener = MidiInputListener(drawer=self.logViewerWidget)
