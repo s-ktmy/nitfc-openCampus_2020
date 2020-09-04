@@ -1,12 +1,13 @@
 import pygame.midi
-from ..Widget import logViewerWidget
+from ..Widget import logViewerWidget, pianoRollWidget
 from ..const import *
 from .MidiEventController import MidiEventController
+from PyQt5 import QtWidgets
 
 
 class MidiInputListener:
 
-    def __init__(self, drawer: logViewerWidget):
+    def __init__(self, parent: QtWidgets.QWidget, drawer: pianoRollWidget, logger: logViewerWidget):
         pygame.init()
         pygame.midi.init()
 
@@ -15,15 +16,18 @@ class MidiInputListener:
         assert self.input_id != -1, "MIDI入力デバイスが認識されていません"
         self.midi_input = pygame.midi.Input(self.input_id)
 
-        self.midi_output = MidiEventController()
+        self.midi_output = MidiEventController(parent, drawer)
 
-        self.drawer = drawer
+        self.logger = logger
 
     def __call__(self):
         # MIDI入力が検知されたら
         if self.midi_input.poll():
             events = self.midi_input.read(MIDIINPUT_ARROW_CHORDS)
-            self.drawer.setText(str(events))
+            self.logger.setText(str(events))
             for event in events:
                 self.midi_output.send(event[0])
 
+    def play(self):
+        self.midi_output.metronome.start()
+        self.midi_output.metronomeFunc()

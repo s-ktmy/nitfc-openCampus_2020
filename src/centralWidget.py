@@ -33,7 +33,23 @@ class centralWidget:
             pos=QtCore.QRect(719, 10, 271, 501)
         )
 
-        self.MidiInputListener = MidiInputListener(drawer=self.logViewerWidget)
+        self.startButton = QtWidgets.QPushButton(self.configWidget.widget)
+        self.startButton.setGeometry(QtCore.QRect(10, 440, 251, 51))
+        self.startButton.setCheckable(True)
+        self.startButton.setText("Start")
+        self.startButton.clicked.connect(self.play)
+
+        self.MidiInputListener = MidiInputListener(
+            parent=self.widget,
+            logger=self.logViewerWidget,
+            drawer=self.pianoRollWidget
+        )
 
         self.midiInputTimer.timeout.connect(self.MidiInputListener)
+
+    # すべてのタイマーを一斉に動かす
+    def play(self):
         self.midiInputTimer.start()
+
+        self.pianoRollWidget.play()
+        self.MidiInputListener.play()

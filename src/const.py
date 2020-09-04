@@ -17,6 +17,32 @@ LOG_ROW_NUMBER = 8
 # MidiEventController 鳴らす音の種類
 MIDIOUTPUT_INSTRUMENTS_ID = 0
 
+# PianoRoll ピッチ数
+PIANOROLL_PITCH_NUMBER = 49
+
+# PianoRoll 小節数
+PIANOROLL_MEASURE_NUMBER = 2
+
+# PianoRoll 分解能
+PIANOROLL_RESOLUTION = 16
+
+# PianoRoll BPM
+PIANOROLL_BPM = 120
+
+# PianoRoll 最低音のピッチ番号
+PIANOROLL_LOWEST_NOTE = 48
+
+# PianoRoll オブジェクトサイズ[x,y]
+PIANOROLL_OBJ_SIZE = [20, 10]
+
+# PianoRoll 起点座標
+PIANOROLL_BASE_POS = [61, 489]
+
+# メトロノーム ベル音ノート番号
+METRONOME_BELL_ID = 84
+
+# メトロノーム クリック音ノート番号
+METRONOME_CLICK_ID = 60
 
 # === システム的な定数 === #
 
