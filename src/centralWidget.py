@@ -50,6 +50,5 @@ class centralWidget:
     # すべてのタイマーを一斉に動かす
     def play(self):
         self.midiInputTimer.start()
-
         self.pianoRollWidget.play()
         self.MidiInputListener.play()

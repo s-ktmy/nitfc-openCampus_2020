@@ -12,6 +12,8 @@ class MidiEventController:
         self.player = pygame.midi.Output(output)
         self.player.set_instrument(MIDIOUTPUT_INSTRUMENTS_ID)
 
+        self.drawer = drawer
+
         self.beat = 0
         self.metronome = QtCore.QTimer()
         self.metronome.setInterval(int((1000 * 240 / PIANOROLL_BPM) / 4))
@@ -33,9 +35,11 @@ class MidiEventController:
 
     def send(self, event: list):
         assert len(event) == EV_INPUT_LENGTH, "不正なMidiイベントデータ"
-        pass
         evType, note, velocity, _ = event
-        if event[0] == EV_NOTE_ON:
+        velocity = 127
+        if evType == EV_NOTE_ON:
             self.player.note_on(note, velocity)
-        if event[0] == EV_NOTE_OFF:
+            self.drawer.noteOn(note)
+        if evType == EV_NOTE_OFF:
             self.player.note_off(note, velocity)
+            self.drawer.noteOff(note)
