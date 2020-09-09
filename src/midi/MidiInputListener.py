@@ -29,5 +29,10 @@ class MidiInputListener:
                 self.midi_output.send(event[0])
 
     def play(self):
+        self.flush()
         self.midi_output.metronome.start()
         self.midi_output.metronomeFunc()
+
+    def flush(self):
+        while len(self.midi_input.read(128)) != 0:
+            pass
