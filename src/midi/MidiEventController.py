@@ -1,5 +1,5 @@
 import pygame.midi
-from ..Widget import pianoRollWidget
+from ..Widget import pianoRollWidget, logViewerWidget
 from ..const import *
 from PyQt5 import QtCore, QtWidgets, QtMultimedia
 from pathlib import Path
@@ -7,12 +7,13 @@ from pathlib import Path
 
 class MidiEventController:
 
-    def __init__(self, parent: QtWidgets.QWidget, drawer: pianoRollWidget):
+    def __init__(self, parent: QtWidgets.QWidget, drawer: pianoRollWidget, logger: logViewerWidget):
         output = pygame.midi.get_default_output_id()
         self.player = pygame.midi.Output(output)
         self.player.set_instrument(MIDIOUTPUT_INSTRUMENTS_ID)
 
         self.drawer = drawer
+        self.logger = logger
 
         self.beat = 0
         self.metronome = QtCore.QTimer()
@@ -25,6 +26,10 @@ class MidiEventController:
             str(Path("assets/se/metronome_bell.wav").resolve()),
             str(Path("assets/se/metronome_click.wav").resolve())
         ]
+
+    def metronomeInit(self):
+        self.beat = 0
+        self.metronomeFunc()
 
     def metronomeFunc(self):
         self.metronome_player.setMedia(QtMultimedia.QMediaContent(QtCore.QUrl.fromLocalFile(

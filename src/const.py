@@ -12,7 +12,7 @@ MIDIINPUT_INTERVAL_TIME = 20
 MIDIINPUT_ARROW_CHORDS = 10
 
 # logViewerWidget 行数
-LOG_ROW_NUMBER = 8
+LOG_ROW_NUMBER = 100
 
 # MidiEventController 鳴らす音の種類
 MIDIOUTPUT_INSTRUMENTS_ID = 0
@@ -43,6 +43,9 @@ METRONOME_BELL_ID = 84
 
 # メトロノーム クリック音ノート番号
 METRONOME_CLICK_ID = 60
+
+# ピアノロール 休符のノート番号
+PIANOROLL_PAUSE_NOTEID = 128
 
 # === システム的な定数 === #
 

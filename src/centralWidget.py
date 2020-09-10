@@ -14,30 +14,32 @@ class centralWidget:
         self.midiInputTimer.setInterval(MIDIINPUT_INTERVAL_TIME)
         self.midiInputTimer.setSingleShot(False)
 
-        self.pianoRollWidget = pianoRollWidget(
-            parent=self.widget,
-            name="pianoRoll",
-            pos=QtCore.QRect(10, 10, 701, 501)
-        )
-
         self.logViewerWidget = logViewerWidget(
             parent=self.widget,
             name="logViewer",
             pos=QtCore.QRect(10, 521, 981, 111)
         )
 
+        self.pianoRollWidget = pianoRollWidget(
+            parent=self.widget,
+            name="pianoRoll",
+            pos=QtCore.QRect(10, 10, 701, 501),
+            logger=self.logViewerWidget
+        )
+
         self.configWidget = configWidget(
             parent=self.widget,
             name="configWidget",
             title="config",
-            pos=QtCore.QRect(719, 10, 271, 501)
+            pos=QtCore.QRect(719, 10, 271, 501),
+            logger=self.logViewerWidget
         )
 
         self.startButton = QtWidgets.QPushButton(self.configWidget.widget)
         self.startButton.setGeometry(QtCore.QRect(10, 440, 251, 51))
         self.startButton.setCheckable(True)
         self.startButton.setText("Start")
-        self.startButton.clicked.connect(self.play)
+        self.startButton.clicked.connect(self.onPushedStartButton)
 
         self.MidiInputListener = MidiInputListener(
             parent=self.widget,
@@ -52,3 +54,17 @@ class centralWidget:
         self.midiInputTimer.start()
         self.pianoRollWidget.play()
         self.MidiInputListener.play()
+
+    # すべてのタイマーを一斉に止める
+    def stop(self):
+        self.midiInputTimer.stop()
+        self.pianoRollWidget.stop()
+        self.MidiInputListener.stop()
+
+    def onPushedStartButton(self):
+        self.stop()
+        self.play()
+
+
+
+

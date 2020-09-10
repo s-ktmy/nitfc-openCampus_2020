@@ -1,11 +1,12 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
 from ..const import *
+from ..Widget import logViewerWidget
 
 
 class pianoRollWidget:
 
-    def __init__(self, parent: QtWidgets.QWidget, name: str, pos: QtCore.QRect):
-        self.widget = pianoRollDrawer(parent)
+    def __init__(self, parent: QtWidgets.QWidget, name: str, pos: QtCore.QRect, logger: logViewerWidget):
+        self.widget = pianoRollDrawer(parent, logger)
         self.widget.setGeometry(pos)
 
         palette = QtGui.QPalette()
@@ -25,6 +26,8 @@ class pianoRollWidget:
         self.frameTimer.timeout.connect(self.update)
         self.frameTimer.start()
 
+        self.logger = logger
+
     def noteOn(self, pitch):
         self.widget.noteOn(pitch)
 
@@ -41,19 +44,20 @@ class pianoRollWidget:
         # self.frameTimer.start()
         self.widget.play()
 
+    def stop(self):
+        self.widget.stop()
+
 
 class pianoRollDrawer(QtWidgets.QWidget):
 
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, logger=None):
         super(pianoRollDrawer, self).__init__(parent)
         self.pianoRollImage = QtGui.QImage(r"assets\img\pianoroll.png")
-        self.noteList = [[
-            0 for _ in range(PIANOROLL_RESOLUTION)
-        ] for _ in range(PIANOROLL_PITCH_NUMBER)
-        ]
-        self.beat = 0
 
-        self.isPressedNotes = [False for _ in range(PIANOROLL_PITCH_NUMBER)]
+        self.beat = 0
+        self.logger = logger
+
+        self.pianoRollObj = PianoRollObj()
 
         self.measureMilliSec = int(1000 * 240 / PIANOROLL_BPM)
 
@@ -70,6 +74,12 @@ class pianoRollDrawer(QtWidgets.QWidget):
     def play(self):
         self.measureTimer.start()
         self.noteEvTimer.start()
+        self.clear()
+        self.beat = 0
+
+    def stop(self):
+        self.measureTimer.stop()
+        self.noteEvTimer.stop()
 
     @staticmethod
     def drawMidiBar(painter: QtGui.QPainter, pitch: int, start: int, length: int):
@@ -92,9 +102,9 @@ class pianoRollDrawer(QtWidgets.QWidget):
         for p in range(PIANOROLL_PITCH_NUMBER):
             t = -1
             for tick in range(PIANOROLL_RESOLUTION):
-                if self.noteList[p][tick] == NOTELIST_START:
+                if self.pianoRollObj.list[p][tick] == NOTELIST_START:
                     t = tick
-                if self.noteList[p][tick] == NOTELIST_PAUSE:
+                if self.pianoRollObj.list[p][tick] == NOTELIST_PAUSE:
                     if t != -1:
                         self.drawMidiBar(painter, p, t, tick - t)
                         t = -1
@@ -113,6 +123,38 @@ class pianoRollDrawer(QtWidgets.QWidget):
         )
 
     def noteOn(self, pitch: int):
+        self.pianoRollObj.noteOn(pitch)
+
+    def noteOff(self, pitch: int):
+        self.pianoRollObj.noteOff(pitch)
+
+    def clear(self):
+        if self.pianoRollObj.isInputted:
+            self.logger.setText(self.pianoRollObj.getVector())
+            self.pianoRollObj.guess()
+
+        self.pianoRollObj.clear()
+
+    def noteUpdate(self):
+        self.beat += 1
+        self.beat %= PIANOROLL_RESOLUTION
+
+        self.pianoRollObj.noteUpdate(self.beat)
+
+
+class PianoRollObj:
+    def __init__(self):
+        self.list = [[
+            0 for _ in range(PIANOROLL_RESOLUTION)
+        ] for _ in range(PIANOROLL_PITCH_NUMBER)
+        ]
+
+        self.isGuessed = False
+        self.isInputted = False
+
+        self.isPressedNotes = [False for _ in range(PIANOROLL_PITCH_NUMBER)]
+
+    def noteOn(self, pitch: int):
         assert pitch - PIANOROLL_LOWEST_NOTE < PIANOROLL_PITCH_NUMBER, "無効なMidi番号が指定されました"
         self.isPressedNotes[pitch - PIANOROLL_LOWEST_NOTE] = True
 
@@ -121,18 +163,66 @@ class pianoRollDrawer(QtWidgets.QWidget):
         self.isPressedNotes[pitch - PIANOROLL_LOWEST_NOTE] = False
 
     def clear(self):
-        self.noteList = [[
+        self.list = [[
+            0 for _ in range(PIANOROLL_RESOLUTION)
+        ] for _ in range(PIANOROLL_PITCH_NUMBER)
+        ]
+        self.isInputted = False
+
+    def noteUpdate(self, beat):
+        for p in range(PIANOROLL_PITCH_NUMBER):
+            if self.isPressedNotes[p]:
+                if beat == 0 or self.list[p][beat - 1] == 0:
+                    self.list[p][beat] = NOTELIST_START
+                    self.isInputted = True
+                else:
+                    self.list[p][beat] = NOTELIST_TIE
+
+    def getVector(self):
+        vector = []
+        # 単音化リスト
+        phoneList = [[
             0 for _ in range(PIANOROLL_RESOLUTION)
         ] for _ in range(PIANOROLL_PITCH_NUMBER)
         ]
 
-    def noteUpdate(self):
-        self.beat += 1
-        self.beat %= PIANOROLL_RESOLUTION
+        for tick in range(PIANOROLL_RESOLUTION):
+            flag = False
+            for p in reversed(range(PIANOROLL_PITCH_NUMBER)):
+                if (self.list[p][tick] != NOTELIST_PAUSE) and not flag:
+                    phoneList[p][tick] = self.list[p][tick]
+                    f = True
 
-        for p in range(PIANOROLL_PITCH_NUMBER):
-            if self.isPressedNotes[p]:
-                if self.beat == 0 or self.noteList[p][self.beat - 1] == 0:
-                    self.noteList[p][self.beat] = NOTELIST_START
+        t_ptr = 0
+        p = 0
+        while t_ptr < PIANOROLL_RESOLUTION:
+            p_ptr = 0
+            f = False
+            for p in range(PIANOROLL_PITCH_NUMBER):
+                if phoneList[p][t_ptr] == NOTELIST_START:
+                    p_ptr = p
+                    f = True
+                    break
+            if f:
+                t = t_ptr
+                while phoneList[p_ptr][t_ptr] != NOTELIST_PAUSE:
+                    t_ptr += 1
+                    if t_ptr == PIANOROLL_RESOLUTION:
+                        break
+                vector.append([p_ptr, (t_ptr - t)*2])
+            else:
+                if len(vector) == 0:
+                    vector.append([PIANOROLL_PAUSE_NOTEID, 2])
                 else:
-                    self.noteList[p][self.beat] = NOTELIST_TIE
+                    if vector[-1][0] != PIANOROLL_PAUSE_NOTEID:
+                        vector.append([PIANOROLL_PAUSE_NOTEID, 2])
+                    else:
+                        vector[-1][1] += 2
+                t_ptr += 1
+
+        return vector
+
+    def guess(self):
+        # モデルを利用した推測をここに書く
+        self.isGuessed = True
+        pass

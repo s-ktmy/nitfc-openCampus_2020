@@ -16,7 +16,7 @@ class MidiInputListener:
         assert self.input_id != -1, "MIDI入力デバイスが認識されていません"
         self.midi_input = pygame.midi.Input(self.input_id)
 
-        self.midi_output = MidiEventController(parent, drawer)
+        self.midi_output = MidiEventController(parent, drawer, logger)
 
         self.logger = logger
 
@@ -31,7 +31,10 @@ class MidiInputListener:
     def play(self):
         self.flush()
         self.midi_output.metronome.start()
-        self.midi_output.metronomeFunc()
+        self.midi_output.metronomeInit()
+
+    def stop(self):
+        self.midi_output.metronome.stop()
 
     def flush(self):
         while len(self.midi_input.read(128)) != 0:
