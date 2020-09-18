@@ -1,6 +1,8 @@
 from PyQt5 import QtWidgets, QtCore, QtGui
 from ..const import *
 from ..Widget import logViewerWidget
+from ..RNN.generateRNN import generateRNN
+from pathlib import Path
 
 
 class pianoRollWidget:
@@ -57,7 +59,7 @@ class pianoRollDrawer(QtWidgets.QWidget):
         self.beat = 0
         self.logger = logger
 
-        self.pianoRollObj = PianoRollObj()
+        self.pianoRollObj = PianoRollObj(logger)
 
         self.measureMilliSec = int(1000 * 240 / PIANOROLL_BPM)
 
@@ -113,12 +115,12 @@ class pianoRollDrawer(QtWidgets.QWidget):
 
         # ガイドラインを表示
         painter.setPen(QtCore.Qt.red)
-        p = 1 - self.measureTimer.remainingTime() / self.measureMilliSec
+        p = 1 - self.measureTimer.remainingTime() / self.measureMilliSec if self.measureTimer.isActive() else 0
 
         painter.drawLine(
-            int(PIANOROLL_X_LENGTH / 2 * p + PIANOROLL_BASE_POS[0]),
+            int(PIANOROLL_X_LENGTH / 4 * p + PIANOROLL_BASE_POS[0]),
             0,
-            int(PIANOROLL_X_LENGTH / 2 * p + PIANOROLL_BASE_POS[0]),
+            int(PIANOROLL_X_LENGTH / 4 * p + PIANOROLL_BASE_POS[0]),
             self.width()
         )
 
@@ -130,8 +132,9 @@ class pianoRollDrawer(QtWidgets.QWidget):
 
     def clear(self):
         if self.pianoRollObj.isInputted:
-            self.logger.setText(self.pianoRollObj.getVector())
-            self.pianoRollObj.guess()
+            inputData = self.pianoRollObj.getVector()
+            self.logger.setText(inputData)
+            self.pianoRollObj.guess(inputData)
 
         self.pianoRollObj.clear()
 
@@ -143,7 +146,7 @@ class pianoRollDrawer(QtWidgets.QWidget):
 
 
 class PianoRollObj:
-    def __init__(self):
+    def __init__(self, logger: logViewerWidget):
         self.list = [[
             0 for _ in range(PIANOROLL_RESOLUTION)
         ] for _ in range(PIANOROLL_PITCH_NUMBER)
@@ -153,6 +156,13 @@ class PianoRollObj:
         self.isInputted = False
 
         self.isPressedNotes = [False for _ in range(PIANOROLL_PITCH_NUMBER)]
+
+        self.logger = logger
+
+        self.model = generateRNN(
+            modelPath=Path(r"assets/model/ckpt"),
+            invDictPath=Path(r"assets/model/dict_inv.json")
+        )
 
     def noteOn(self, pitch: int):
         assert pitch - PIANOROLL_LOWEST_NOTE < PIANOROLL_PITCH_NUMBER, "無効なMidi番号が指定されました"
@@ -209,7 +219,7 @@ class PianoRollObj:
                     t_ptr += 1
                     if t_ptr == PIANOROLL_RESOLUTION:
                         break
-                vector.append([p_ptr, (t_ptr - t)*2])
+                vector.append([p_ptr, (t_ptr - t) * 2])
             else:
                 if len(vector) == 0:
                     vector.append([PIANOROLL_PAUSE_NOTEID, 2])
@@ -222,7 +232,11 @@ class PianoRollObj:
 
         return vector
 
-    def guess(self):
+    def guess(self, seed_list: list):
         # モデルを利用した推測をここに書く
         self.isGuessed = True
-        pass
+        seed = []
+        for pr in seed_list:
+            seed.append((min(pr[0] + PIANOROLL_LOWEST_NOTE, PIANOROLL_PAUSE_NOTEID), pr[1]))
+        geneData = self.model.generate(seed)
+        self.logger.setText(geneData)

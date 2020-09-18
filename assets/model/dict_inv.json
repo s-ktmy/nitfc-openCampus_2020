@@ -1,0 +1,4378 @@
+{
+    "0": {
+        "pitch": 24,
+        "rhythm": 1
+    },
+    "1": {
+        "pitch": 24,
+        "rhythm": 2
+    },
+    "2": {
+        "pitch": 24,
+        "rhythm": 3
+    },
+    "3": {
+        "pitch": 24,
+        "rhythm": 4
+    },
+    "4": {
+        "pitch": 24,
+        "rhythm": 8
+    },
+    "5": {
+        "pitch": 24,
+        "rhythm": 12
+    },
+    "6": {
+        "pitch": 24,
+        "rhythm": 16
+    },
+    "7": {
+        "pitch": 25,
+        "rhythm": 1
+    },
+    "8": {
+        "pitch": 25,
+        "rhythm": 4
+    },
+    "9": {
+        "pitch": 25,
+        "rhythm": 8
+    },
+    "10": {
+        "pitch": 25,
+        "rhythm": 16
+    },
+    "11": {
+        "pitch": 26,
+        "rhythm": 1
+    },
+    "12": {
+        "pitch": 26,
+        "rhythm": 2
+    },
+    "13": {
+        "pitch": 26,
+        "rhythm": 3
+    },
+    "14": {
+        "pitch": 26,
+        "rhythm": 4
+    },
+    "15": {
+        "pitch": 26,
+        "rhythm": 5
+    },
+    "16": {
+        "pitch": 26,
+        "rhythm": 6
+    },
+    "17": {
+        "pitch": 26,
+        "rhythm": 7
+    },
+    "18": {
+        "pitch": 26,
+        "rhythm": 8
+    },
+    "19": {
+        "pitch": 26,
+        "rhythm": 10
+    },
+    "20": {
+        "pitch": 26,
+        "rhythm": 12
+    },
+    "21": {
+        "pitch": 26,
+        "rhythm": 16
+    },
+    "22": {
+        "pitch": 27,
+        "rhythm": 1
+    },
+    "23": {
+        "pitch": 27,
+        "rhythm": 2
+    },
+    "24": {
+        "pitch": 27,
+        "rhythm": 4
+    },
+    "25": {
+        "pitch": 27,
+        "rhythm": 8
+    },
+    "26": {
+        "pitch": 27,
+        "rhythm": 16
+    },
+    "27": {
+        "pitch": 28,
+        "rhythm": 1
+    },
+    "28": {
+        "pitch": 28,
+        "rhythm": 2
+    },
+    "29": {
+        "pitch": 28,
+        "rhythm": 3
+    },
+    "30": {
+        "pitch": 28,
+        "rhythm": 4
+    },
+    "31": {
+        "pitch": 28,
+        "rhythm": 5
+    },
+    "32": {
+        "pitch": 28,
+        "rhythm": 6
+    },
+    "33": {
+        "pitch": 28,
+        "rhythm": 8
+    },
+    "34": {
+        "pitch": 28,
+        "rhythm": 16
+    },
+    "35": {
+        "pitch": 29,
+        "rhythm": 1
+    },
+    "36": {
+        "pitch": 29,
+        "rhythm": 2
+    },
+    "37": {
+        "pitch": 29,
+        "rhythm": 3
+    },
+    "38": {
+        "pitch": 29,
+        "rhythm": 4
+    },
+    "39": {
+        "pitch": 29,
+        "rhythm": 5
+    },
+    "40": {
+        "pitch": 29,
+        "rhythm": 6
+    },
+    "41": {
+        "pitch": 29,
+        "rhythm": 7
+    },
+    "42": {
+        "pitch": 29,
+        "rhythm": 8
+    },
+    "43": {
+        "pitch": 29,
+        "rhythm": 10
+    },
+    "44": {
+        "pitch": 29,
+        "rhythm": 12
+    },
+    "45": {
+        "pitch": 29,
+        "rhythm": 16
+    },
+    "46": {
+        "pitch": 30,
+        "rhythm": 1
+    },
+    "47": {
+        "pitch": 30,
+        "rhythm": 2
+    },
+    "48": {
+        "pitch": 30,
+        "rhythm": 3
+    },
+    "49": {
+        "pitch": 30,
+        "rhythm": 4
+    },
+    "50": {
+        "pitch": 30,
+        "rhythm": 5
+    },
+    "51": {
+        "pitch": 30,
+        "rhythm": 6
+    },
+    "52": {
+        "pitch": 30,
+        "rhythm": 7
+    },
+    "53": {
+        "pitch": 30,
+        "rhythm": 8
+    },
+    "54": {
+        "pitch": 30,
+        "rhythm": 12
+    },
+    "55": {
+        "pitch": 30,
+        "rhythm": 16
+    },
+    "56": {
+        "pitch": 31,
+        "rhythm": 1
+    },
+    "57": {
+        "pitch": 31,
+        "rhythm": 2
+    },
+    "58": {
+        "pitch": 31,
+        "rhythm": 3
+    },
+    "59": {
+        "pitch": 31,
+        "rhythm": 4
+    },
+    "60": {
+        "pitch": 31,
+        "rhythm": 5
+    },
+    "61": {
+        "pitch": 31,
+        "rhythm": 6
+    },
+    "62": {
+        "pitch": 31,
+        "rhythm": 8
+    },
+    "63": {
+        "pitch": 31,
+        "rhythm": 9
+    },
+    "64": {
+        "pitch": 31,
+        "rhythm": 12
+    },
+    "65": {
+        "pitch": 31,
+        "rhythm": 14
+    },
+    "66": {
+        "pitch": 31,
+        "rhythm": 16
+    },
+    "67": {
+        "pitch": 32,
+        "rhythm": 1
+    },
+    "68": {
+        "pitch": 32,
+        "rhythm": 2
+    },
+    "69": {
+        "pitch": 32,
+        "rhythm": 3
+    },
+    "70": {
+        "pitch": 32,
+        "rhythm": 4
+    },
+    "71": {
+        "pitch": 32,
+        "rhythm": 5
+    },
+    "72": {
+        "pitch": 32,
+        "rhythm": 6
+    },
+    "73": {
+        "pitch": 32,
+        "rhythm": 7
+    },
+    "74": {
+        "pitch": 32,
+        "rhythm": 8
+    },
+    "75": {
+        "pitch": 32,
+        "rhythm": 12
+    },
+    "76": {
+        "pitch": 32,
+        "rhythm": 14
+    },
+    "77": {
+        "pitch": 32,
+        "rhythm": 16
+    },
+    "78": {
+        "pitch": 33,
+        "rhythm": 1
+    },
+    "79": {
+        "pitch": 33,
+        "rhythm": 2
+    },
+    "80": {
+        "pitch": 33,
+        "rhythm": 3
+    },
+    "81": {
+        "pitch": 33,
+        "rhythm": 4
+    },
+    "82": {
+        "pitch": 33,
+        "rhythm": 5
+    },
+    "83": {
+        "pitch": 33,
+        "rhythm": 6
+    },
+    "84": {
+        "pitch": 33,
+        "rhythm": 7
+    },
+    "85": {
+        "pitch": 33,
+        "rhythm": 8
+    },
+    "86": {
+        "pitch": 33,
+        "rhythm": 10
+    },
+    "87": {
+        "pitch": 33,
+        "rhythm": 12
+    },
+    "88": {
+        "pitch": 33,
+        "rhythm": 14
+    },
+    "89": {
+        "pitch": 33,
+        "rhythm": 16
+    },
+    "90": {
+        "pitch": 34,
+        "rhythm": 1
+    },
+    "91": {
+        "pitch": 34,
+        "rhythm": 2
+    },
+    "92": {
+        "pitch": 34,
+        "rhythm": 3
+    },
+    "93": {
+        "pitch": 34,
+        "rhythm": 4
+    },
+    "94": {
+        "pitch": 34,
+        "rhythm": 5
+    },
+    "95": {
+        "pitch": 34,
+        "rhythm": 6
+    },
+    "96": {
+        "pitch": 34,
+        "rhythm": 7
+    },
+    "97": {
+        "pitch": 34,
+        "rhythm": 8
+    },
+    "98": {
+        "pitch": 34,
+        "rhythm": 9
+    },
+    "99": {
+        "pitch": 34,
+        "rhythm": 12
+    },
+    "100": {
+        "pitch": 34,
+        "rhythm": 16
+    },
+    "101": {
+        "pitch": 35,
+        "rhythm": 1
+    },
+    "102": {
+        "pitch": 35,
+        "rhythm": 2
+    },
+    "103": {
+        "pitch": 35,
+        "rhythm": 3
+    },
+    "104": {
+        "pitch": 35,
+        "rhythm": 4
+    },
+    "105": {
+        "pitch": 35,
+        "rhythm": 5
+    },
+    "106": {
+        "pitch": 35,
+        "rhythm": 6
+    },
+    "107": {
+        "pitch": 35,
+        "rhythm": 7
+    },
+    "108": {
+        "pitch": 35,
+        "rhythm": 8
+    },
+    "109": {
+        "pitch": 35,
+        "rhythm": 9
+    },
+    "110": {
+        "pitch": 35,
+        "rhythm": 12
+    },
+    "111": {
+        "pitch": 35,
+        "rhythm": 14
+    },
+    "112": {
+        "pitch": 35,
+        "rhythm": 16
+    },
+    "113": {
+        "pitch": 36,
+        "rhythm": 1
+    },
+    "114": {
+        "pitch": 36,
+        "rhythm": 2
+    },
+    "115": {
+        "pitch": 36,
+        "rhythm": 3
+    },
+    "116": {
+        "pitch": 36,
+        "rhythm": 4
+    },
+    "117": {
+        "pitch": 36,
+        "rhythm": 5
+    },
+    "118": {
+        "pitch": 36,
+        "rhythm": 6
+    },
+    "119": {
+        "pitch": 36,
+        "rhythm": 7
+    },
+    "120": {
+        "pitch": 36,
+        "rhythm": 8
+    },
+    "121": {
+        "pitch": 36,
+        "rhythm": 10
+    },
+    "122": {
+        "pitch": 36,
+        "rhythm": 12
+    },
+    "123": {
+        "pitch": 36,
+        "rhythm": 13
+    },
+    "124": {
+        "pitch": 36,
+        "rhythm": 14
+    },
+    "125": {
+        "pitch": 36,
+        "rhythm": 16
+    },
+    "126": {
+        "pitch": 37,
+        "rhythm": 1
+    },
+    "127": {
+        "pitch": 37,
+        "rhythm": 2
+    },
+    "128": {
+        "pitch": 37,
+        "rhythm": 3
+    },
+    "129": {
+        "pitch": 37,
+        "rhythm": 4
+    },
+    "130": {
+        "pitch": 37,
+        "rhythm": 5
+    },
+    "131": {
+        "pitch": 37,
+        "rhythm": 6
+    },
+    "132": {
+        "pitch": 37,
+        "rhythm": 8
+    },
+    "133": {
+        "pitch": 37,
+        "rhythm": 9
+    },
+    "134": {
+        "pitch": 37,
+        "rhythm": 12
+    },
+    "135": {
+        "pitch": 37,
+        "rhythm": 14
+    },
+    "136": {
+        "pitch": 37,
+        "rhythm": 16
+    },
+    "137": {
+        "pitch": 38,
+        "rhythm": 1
+    },
+    "138": {
+        "pitch": 38,
+        "rhythm": 2
+    },
+    "139": {
+        "pitch": 38,
+        "rhythm": 3
+    },
+    "140": {
+        "pitch": 38,
+        "rhythm": 4
+    },
+    "141": {
+        "pitch": 38,
+        "rhythm": 5
+    },
+    "142": {
+        "pitch": 38,
+        "rhythm": 6
+    },
+    "143": {
+        "pitch": 38,
+        "rhythm": 7
+    },
+    "144": {
+        "pitch": 38,
+        "rhythm": 8
+    },
+    "145": {
+        "pitch": 38,
+        "rhythm": 9
+    },
+    "146": {
+        "pitch": 38,
+        "rhythm": 10
+    },
+    "147": {
+        "pitch": 38,
+        "rhythm": 12
+    },
+    "148": {
+        "pitch": 38,
+        "rhythm": 13
+    },
+    "149": {
+        "pitch": 38,
+        "rhythm": 14
+    },
+    "150": {
+        "pitch": 38,
+        "rhythm": 16
+    },
+    "151": {
+        "pitch": 39,
+        "rhythm": 1
+    },
+    "152": {
+        "pitch": 39,
+        "rhythm": 2
+    },
+    "153": {
+        "pitch": 39,
+        "rhythm": 3
+    },
+    "154": {
+        "pitch": 39,
+        "rhythm": 4
+    },
+    "155": {
+        "pitch": 39,
+        "rhythm": 5
+    },
+    "156": {
+        "pitch": 39,
+        "rhythm": 6
+    },
+    "157": {
+        "pitch": 39,
+        "rhythm": 7
+    },
+    "158": {
+        "pitch": 39,
+        "rhythm": 8
+    },
+    "159": {
+        "pitch": 39,
+        "rhythm": 9
+    },
+    "160": {
+        "pitch": 39,
+        "rhythm": 12
+    },
+    "161": {
+        "pitch": 39,
+        "rhythm": 16
+    },
+    "162": {
+        "pitch": 40,
+        "rhythm": 1
+    },
+    "163": {
+        "pitch": 40,
+        "rhythm": 2
+    },
+    "164": {
+        "pitch": 40,
+        "rhythm": 3
+    },
+    "165": {
+        "pitch": 40,
+        "rhythm": 4
+    },
+    "166": {
+        "pitch": 40,
+        "rhythm": 5
+    },
+    "167": {
+        "pitch": 40,
+        "rhythm": 6
+    },
+    "168": {
+        "pitch": 40,
+        "rhythm": 7
+    },
+    "169": {
+        "pitch": 40,
+        "rhythm": 8
+    },
+    "170": {
+        "pitch": 40,
+        "rhythm": 9
+    },
+    "171": {
+        "pitch": 40,
+        "rhythm": 10
+    },
+    "172": {
+        "pitch": 40,
+        "rhythm": 11
+    },
+    "173": {
+        "pitch": 40,
+        "rhythm": 12
+    },
+    "174": {
+        "pitch": 40,
+        "rhythm": 16
+    },
+    "175": {
+        "pitch": 41,
+        "rhythm": 1
+    },
+    "176": {
+        "pitch": 41,
+        "rhythm": 2
+    },
+    "177": {
+        "pitch": 41,
+        "rhythm": 3
+    },
+    "178": {
+        "pitch": 41,
+        "rhythm": 4
+    },
+    "179": {
+        "pitch": 41,
+        "rhythm": 5
+    },
+    "180": {
+        "pitch": 41,
+        "rhythm": 6
+    },
+    "181": {
+        "pitch": 41,
+        "rhythm": 7
+    },
+    "182": {
+        "pitch": 41,
+        "rhythm": 8
+    },
+    "183": {
+        "pitch": 41,
+        "rhythm": 10
+    },
+    "184": {
+        "pitch": 41,
+        "rhythm": 12
+    },
+    "185": {
+        "pitch": 41,
+        "rhythm": 14
+    },
+    "186": {
+        "pitch": 41,
+        "rhythm": 16
+    },
+    "187": {
+        "pitch": 42,
+        "rhythm": 1
+    },
+    "188": {
+        "pitch": 42,
+        "rhythm": 2
+    },
+    "189": {
+        "pitch": 42,
+        "rhythm": 3
+    },
+    "190": {
+        "pitch": 42,
+        "rhythm": 4
+    },
+    "191": {
+        "pitch": 42,
+        "rhythm": 5
+    },
+    "192": {
+        "pitch": 42,
+        "rhythm": 6
+    },
+    "193": {
+        "pitch": 42,
+        "rhythm": 7
+    },
+    "194": {
+        "pitch": 42,
+        "rhythm": 8
+    },
+    "195": {
+        "pitch": 42,
+        "rhythm": 9
+    },
+    "196": {
+        "pitch": 42,
+        "rhythm": 12
+    },
+    "197": {
+        "pitch": 42,
+        "rhythm": 13
+    },
+    "198": {
+        "pitch": 42,
+        "rhythm": 14
+    },
+    "199": {
+        "pitch": 42,
+        "rhythm": 16
+    },
+    "200": {
+        "pitch": 43,
+        "rhythm": 1
+    },
+    "201": {
+        "pitch": 43,
+        "rhythm": 2
+    },
+    "202": {
+        "pitch": 43,
+        "rhythm": 3
+    },
+    "203": {
+        "pitch": 43,
+        "rhythm": 4
+    },
+    "204": {
+        "pitch": 43,
+        "rhythm": 5
+    },
+    "205": {
+        "pitch": 43,
+        "rhythm": 6
+    },
+    "206": {
+        "pitch": 43,
+        "rhythm": 7
+    },
+    "207": {
+        "pitch": 43,
+        "rhythm": 8
+    },
+    "208": {
+        "pitch": 43,
+        "rhythm": 9
+    },
+    "209": {
+        "pitch": 43,
+        "rhythm": 10
+    },
+    "210": {
+        "pitch": 43,
+        "rhythm": 11
+    },
+    "211": {
+        "pitch": 43,
+        "rhythm": 12
+    },
+    "212": {
+        "pitch": 43,
+        "rhythm": 13
+    },
+    "213": {
+        "pitch": 43,
+        "rhythm": 14
+    },
+    "214": {
+        "pitch": 43,
+        "rhythm": 16
+    },
+    "215": {
+        "pitch": 44,
+        "rhythm": 1
+    },
+    "216": {
+        "pitch": 44,
+        "rhythm": 2
+    },
+    "217": {
+        "pitch": 44,
+        "rhythm": 3
+    },
+    "218": {
+        "pitch": 44,
+        "rhythm": 4
+    },
+    "219": {
+        "pitch": 44,
+        "rhythm": 5
+    },
+    "220": {
+        "pitch": 44,
+        "rhythm": 6
+    },
+    "221": {
+        "pitch": 44,
+        "rhythm": 7
+    },
+    "222": {
+        "pitch": 44,
+        "rhythm": 8
+    },
+    "223": {
+        "pitch": 44,
+        "rhythm": 10
+    },
+    "224": {
+        "pitch": 44,
+        "rhythm": 12
+    },
+    "225": {
+        "pitch": 44,
+        "rhythm": 14
+    },
+    "226": {
+        "pitch": 44,
+        "rhythm": 16
+    },
+    "227": {
+        "pitch": 45,
+        "rhythm": 1
+    },
+    "228": {
+        "pitch": 45,
+        "rhythm": 2
+    },
+    "229": {
+        "pitch": 45,
+        "rhythm": 3
+    },
+    "230": {
+        "pitch": 45,
+        "rhythm": 4
+    },
+    "231": {
+        "pitch": 45,
+        "rhythm": 5
+    },
+    "232": {
+        "pitch": 45,
+        "rhythm": 6
+    },
+    "233": {
+        "pitch": 45,
+        "rhythm": 7
+    },
+    "234": {
+        "pitch": 45,
+        "rhythm": 8
+    },
+    "235": {
+        "pitch": 45,
+        "rhythm": 9
+    },
+    "236": {
+        "pitch": 45,
+        "rhythm": 10
+    },
+    "237": {
+        "pitch": 45,
+        "rhythm": 12
+    },
+    "238": {
+        "pitch": 45,
+        "rhythm": 14
+    },
+    "239": {
+        "pitch": 45,
+        "rhythm": 16
+    },
+    "240": {
+        "pitch": 46,
+        "rhythm": 1
+    },
+    "241": {
+        "pitch": 46,
+        "rhythm": 2
+    },
+    "242": {
+        "pitch": 46,
+        "rhythm": 3
+    },
+    "243": {
+        "pitch": 46,
+        "rhythm": 4
+    },
+    "244": {
+        "pitch": 46,
+        "rhythm": 5
+    },
+    "245": {
+        "pitch": 46,
+        "rhythm": 6
+    },
+    "246": {
+        "pitch": 46,
+        "rhythm": 7
+    },
+    "247": {
+        "pitch": 46,
+        "rhythm": 8
+    },
+    "248": {
+        "pitch": 46,
+        "rhythm": 9
+    },
+    "249": {
+        "pitch": 46,
+        "rhythm": 10
+    },
+    "250": {
+        "pitch": 46,
+        "rhythm": 12
+    },
+    "251": {
+        "pitch": 46,
+        "rhythm": 14
+    },
+    "252": {
+        "pitch": 46,
+        "rhythm": 16
+    },
+    "253": {
+        "pitch": 47,
+        "rhythm": 1
+    },
+    "254": {
+        "pitch": 47,
+        "rhythm": 2
+    },
+    "255": {
+        "pitch": 47,
+        "rhythm": 3
+    },
+    "256": {
+        "pitch": 47,
+        "rhythm": 4
+    },
+    "257": {
+        "pitch": 47,
+        "rhythm": 5
+    },
+    "258": {
+        "pitch": 47,
+        "rhythm": 6
+    },
+    "259": {
+        "pitch": 47,
+        "rhythm": 7
+    },
+    "260": {
+        "pitch": 47,
+        "rhythm": 8
+    },
+    "261": {
+        "pitch": 47,
+        "rhythm": 9
+    },
+    "262": {
+        "pitch": 47,
+        "rhythm": 10
+    },
+    "263": {
+        "pitch": 47,
+        "rhythm": 11
+    },
+    "264": {
+        "pitch": 47,
+        "rhythm": 12
+    },
+    "265": {
+        "pitch": 47,
+        "rhythm": 13
+    },
+    "266": {
+        "pitch": 47,
+        "rhythm": 14
+    },
+    "267": {
+        "pitch": 47,
+        "rhythm": 16
+    },
+    "268": {
+        "pitch": 48,
+        "rhythm": 1
+    },
+    "269": {
+        "pitch": 48,
+        "rhythm": 2
+    },
+    "270": {
+        "pitch": 48,
+        "rhythm": 3
+    },
+    "271": {
+        "pitch": 48,
+        "rhythm": 4
+    },
+    "272": {
+        "pitch": 48,
+        "rhythm": 5
+    },
+    "273": {
+        "pitch": 48,
+        "rhythm": 6
+    },
+    "274": {
+        "pitch": 48,
+        "rhythm": 7
+    },
+    "275": {
+        "pitch": 48,
+        "rhythm": 8
+    },
+    "276": {
+        "pitch": 48,
+        "rhythm": 9
+    },
+    "277": {
+        "pitch": 48,
+        "rhythm": 10
+    },
+    "278": {
+        "pitch": 48,
+        "rhythm": 11
+    },
+    "279": {
+        "pitch": 48,
+        "rhythm": 12
+    },
+    "280": {
+        "pitch": 48,
+        "rhythm": 13
+    },
+    "281": {
+        "pitch": 48,
+        "rhythm": 14
+    },
+    "282": {
+        "pitch": 48,
+        "rhythm": 16
+    },
+    "283": {
+        "pitch": 49,
+        "rhythm": 1
+    },
+    "284": {
+        "pitch": 49,
+        "rhythm": 2
+    },
+    "285": {
+        "pitch": 49,
+        "rhythm": 3
+    },
+    "286": {
+        "pitch": 49,
+        "rhythm": 4
+    },
+    "287": {
+        "pitch": 49,
+        "rhythm": 5
+    },
+    "288": {
+        "pitch": 49,
+        "rhythm": 6
+    },
+    "289": {
+        "pitch": 49,
+        "rhythm": 7
+    },
+    "290": {
+        "pitch": 49,
+        "rhythm": 8
+    },
+    "291": {
+        "pitch": 49,
+        "rhythm": 9
+    },
+    "292": {
+        "pitch": 49,
+        "rhythm": 10
+    },
+    "293": {
+        "pitch": 49,
+        "rhythm": 12
+    },
+    "294": {
+        "pitch": 49,
+        "rhythm": 13
+    },
+    "295": {
+        "pitch": 49,
+        "rhythm": 14
+    },
+    "296": {
+        "pitch": 49,
+        "rhythm": 16
+    },
+    "297": {
+        "pitch": 50,
+        "rhythm": 1
+    },
+    "298": {
+        "pitch": 50,
+        "rhythm": 2
+    },
+    "299": {
+        "pitch": 50,
+        "rhythm": 3
+    },
+    "300": {
+        "pitch": 50,
+        "rhythm": 4
+    },
+    "301": {
+        "pitch": 50,
+        "rhythm": 5
+    },
+    "302": {
+        "pitch": 50,
+        "rhythm": 6
+    },
+    "303": {
+        "pitch": 50,
+        "rhythm": 7
+    },
+    "304": {
+        "pitch": 50,
+        "rhythm": 8
+    },
+    "305": {
+        "pitch": 50,
+        "rhythm": 9
+    },
+    "306": {
+        "pitch": 50,
+        "rhythm": 10
+    },
+    "307": {
+        "pitch": 50,
+        "rhythm": 11
+    },
+    "308": {
+        "pitch": 50,
+        "rhythm": 12
+    },
+    "309": {
+        "pitch": 50,
+        "rhythm": 13
+    },
+    "310": {
+        "pitch": 50,
+        "rhythm": 14
+    },
+    "311": {
+        "pitch": 50,
+        "rhythm": 15
+    },
+    "312": {
+        "pitch": 50,
+        "rhythm": 16
+    },
+    "313": {
+        "pitch": 51,
+        "rhythm": 1
+    },
+    "314": {
+        "pitch": 51,
+        "rhythm": 2
+    },
+    "315": {
+        "pitch": 51,
+        "rhythm": 3
+    },
+    "316": {
+        "pitch": 51,
+        "rhythm": 4
+    },
+    "317": {
+        "pitch": 51,
+        "rhythm": 5
+    },
+    "318": {
+        "pitch": 51,
+        "rhythm": 6
+    },
+    "319": {
+        "pitch": 51,
+        "rhythm": 7
+    },
+    "320": {
+        "pitch": 51,
+        "rhythm": 8
+    },
+    "321": {
+        "pitch": 51,
+        "rhythm": 9
+    },
+    "322": {
+        "pitch": 51,
+        "rhythm": 10
+    },
+    "323": {
+        "pitch": 51,
+        "rhythm": 11
+    },
+    "324": {
+        "pitch": 51,
+        "rhythm": 12
+    },
+    "325": {
+        "pitch": 51,
+        "rhythm": 14
+    },
+    "326": {
+        "pitch": 51,
+        "rhythm": 16
+    },
+    "327": {
+        "pitch": 52,
+        "rhythm": 1
+    },
+    "328": {
+        "pitch": 52,
+        "rhythm": 2
+    },
+    "329": {
+        "pitch": 52,
+        "rhythm": 3
+    },
+    "330": {
+        "pitch": 52,
+        "rhythm": 4
+    },
+    "331": {
+        "pitch": 52,
+        "rhythm": 5
+    },
+    "332": {
+        "pitch": 52,
+        "rhythm": 6
+    },
+    "333": {
+        "pitch": 52,
+        "rhythm": 7
+    },
+    "334": {
+        "pitch": 52,
+        "rhythm": 8
+    },
+    "335": {
+        "pitch": 52,
+        "rhythm": 9
+    },
+    "336": {
+        "pitch": 52,
+        "rhythm": 10
+    },
+    "337": {
+        "pitch": 52,
+        "rhythm": 11
+    },
+    "338": {
+        "pitch": 52,
+        "rhythm": 12
+    },
+    "339": {
+        "pitch": 52,
+        "rhythm": 13
+    },
+    "340": {
+        "pitch": 52,
+        "rhythm": 14
+    },
+    "341": {
+        "pitch": 52,
+        "rhythm": 16
+    },
+    "342": {
+        "pitch": 53,
+        "rhythm": 1
+    },
+    "343": {
+        "pitch": 53,
+        "rhythm": 2
+    },
+    "344": {
+        "pitch": 53,
+        "rhythm": 3
+    },
+    "345": {
+        "pitch": 53,
+        "rhythm": 4
+    },
+    "346": {
+        "pitch": 53,
+        "rhythm": 5
+    },
+    "347": {
+        "pitch": 53,
+        "rhythm": 6
+    },
+    "348": {
+        "pitch": 53,
+        "rhythm": 7
+    },
+    "349": {
+        "pitch": 53,
+        "rhythm": 8
+    },
+    "350": {
+        "pitch": 53,
+        "rhythm": 9
+    },
+    "351": {
+        "pitch": 53,
+        "rhythm": 10
+    },
+    "352": {
+        "pitch": 53,
+        "rhythm": 11
+    },
+    "353": {
+        "pitch": 53,
+        "rhythm": 12
+    },
+    "354": {
+        "pitch": 53,
+        "rhythm": 13
+    },
+    "355": {
+        "pitch": 53,
+        "rhythm": 14
+    },
+    "356": {
+        "pitch": 53,
+        "rhythm": 15
+    },
+    "357": {
+        "pitch": 53,
+        "rhythm": 16
+    },
+    "358": {
+        "pitch": 54,
+        "rhythm": 1
+    },
+    "359": {
+        "pitch": 54,
+        "rhythm": 2
+    },
+    "360": {
+        "pitch": 54,
+        "rhythm": 3
+    },
+    "361": {
+        "pitch": 54,
+        "rhythm": 4
+    },
+    "362": {
+        "pitch": 54,
+        "rhythm": 5
+    },
+    "363": {
+        "pitch": 54,
+        "rhythm": 6
+    },
+    "364": {
+        "pitch": 54,
+        "rhythm": 7
+    },
+    "365": {
+        "pitch": 54,
+        "rhythm": 8
+    },
+    "366": {
+        "pitch": 54,
+        "rhythm": 9
+    },
+    "367": {
+        "pitch": 54,
+        "rhythm": 10
+    },
+    "368": {
+        "pitch": 54,
+        "rhythm": 12
+    },
+    "369": {
+        "pitch": 54,
+        "rhythm": 14
+    },
+    "370": {
+        "pitch": 54,
+        "rhythm": 16
+    },
+    "371": {
+        "pitch": 55,
+        "rhythm": 1
+    },
+    "372": {
+        "pitch": 55,
+        "rhythm": 2
+    },
+    "373": {
+        "pitch": 55,
+        "rhythm": 3
+    },
+    "374": {
+        "pitch": 55,
+        "rhythm": 4
+    },
+    "375": {
+        "pitch": 55,
+        "rhythm": 5
+    },
+    "376": {
+        "pitch": 55,
+        "rhythm": 6
+    },
+    "377": {
+        "pitch": 55,
+        "rhythm": 7
+    },
+    "378": {
+        "pitch": 55,
+        "rhythm": 8
+    },
+    "379": {
+        "pitch": 55,
+        "rhythm": 9
+    },
+    "380": {
+        "pitch": 55,
+        "rhythm": 10
+    },
+    "381": {
+        "pitch": 55,
+        "rhythm": 11
+    },
+    "382": {
+        "pitch": 55,
+        "rhythm": 12
+    },
+    "383": {
+        "pitch": 55,
+        "rhythm": 13
+    },
+    "384": {
+        "pitch": 55,
+        "rhythm": 14
+    },
+    "385": {
+        "pitch": 55,
+        "rhythm": 15
+    },
+    "386": {
+        "pitch": 55,
+        "rhythm": 16
+    },
+    "387": {
+        "pitch": 56,
+        "rhythm": 1
+    },
+    "388": {
+        "pitch": 56,
+        "rhythm": 2
+    },
+    "389": {
+        "pitch": 56,
+        "rhythm": 3
+    },
+    "390": {
+        "pitch": 56,
+        "rhythm": 4
+    },
+    "391": {
+        "pitch": 56,
+        "rhythm": 5
+    },
+    "392": {
+        "pitch": 56,
+        "rhythm": 6
+    },
+    "393": {
+        "pitch": 56,
+        "rhythm": 7
+    },
+    "394": {
+        "pitch": 56,
+        "rhythm": 8
+    },
+    "395": {
+        "pitch": 56,
+        "rhythm": 9
+    },
+    "396": {
+        "pitch": 56,
+        "rhythm": 10
+    },
+    "397": {
+        "pitch": 56,
+        "rhythm": 11
+    },
+    "398": {
+        "pitch": 56,
+        "rhythm": 12
+    },
+    "399": {
+        "pitch": 56,
+        "rhythm": 14
+    },
+    "400": {
+        "pitch": 56,
+        "rhythm": 15
+    },
+    "401": {
+        "pitch": 56,
+        "rhythm": 16
+    },
+    "402": {
+        "pitch": 57,
+        "rhythm": 1
+    },
+    "403": {
+        "pitch": 57,
+        "rhythm": 2
+    },
+    "404": {
+        "pitch": 57,
+        "rhythm": 3
+    },
+    "405": {
+        "pitch": 57,
+        "rhythm": 4
+    },
+    "406": {
+        "pitch": 57,
+        "rhythm": 5
+    },
+    "407": {
+        "pitch": 57,
+        "rhythm": 6
+    },
+    "408": {
+        "pitch": 57,
+        "rhythm": 7
+    },
+    "409": {
+        "pitch": 57,
+        "rhythm": 8
+    },
+    "410": {
+        "pitch": 57,
+        "rhythm": 9
+    },
+    "411": {
+        "pitch": 57,
+        "rhythm": 10
+    },
+    "412": {
+        "pitch": 57,
+        "rhythm": 11
+    },
+    "413": {
+        "pitch": 57,
+        "rhythm": 12
+    },
+    "414": {
+        "pitch": 57,
+        "rhythm": 13
+    },
+    "415": {
+        "pitch": 57,
+        "rhythm": 14
+    },
+    "416": {
+        "pitch": 57,
+        "rhythm": 15
+    },
+    "417": {
+        "pitch": 57,
+        "rhythm": 16
+    },
+    "418": {
+        "pitch": 58,
+        "rhythm": 1
+    },
+    "419": {
+        "pitch": 58,
+        "rhythm": 2
+    },
+    "420": {
+        "pitch": 58,
+        "rhythm": 3
+    },
+    "421": {
+        "pitch": 58,
+        "rhythm": 4
+    },
+    "422": {
+        "pitch": 58,
+        "rhythm": 5
+    },
+    "423": {
+        "pitch": 58,
+        "rhythm": 6
+    },
+    "424": {
+        "pitch": 58,
+        "rhythm": 7
+    },
+    "425": {
+        "pitch": 58,
+        "rhythm": 8
+    },
+    "426": {
+        "pitch": 58,
+        "rhythm": 9
+    },
+    "427": {
+        "pitch": 58,
+        "rhythm": 10
+    },
+    "428": {
+        "pitch": 58,
+        "rhythm": 12
+    },
+    "429": {
+        "pitch": 58,
+        "rhythm": 13
+    },
+    "430": {
+        "pitch": 58,
+        "rhythm": 14
+    },
+    "431": {
+        "pitch": 58,
+        "rhythm": 15
+    },
+    "432": {
+        "pitch": 58,
+        "rhythm": 16
+    },
+    "433": {
+        "pitch": 59,
+        "rhythm": 1
+    },
+    "434": {
+        "pitch": 59,
+        "rhythm": 2
+    },
+    "435": {
+        "pitch": 59,
+        "rhythm": 3
+    },
+    "436": {
+        "pitch": 59,
+        "rhythm": 4
+    },
+    "437": {
+        "pitch": 59,
+        "rhythm": 5
+    },
+    "438": {
+        "pitch": 59,
+        "rhythm": 6
+    },
+    "439": {
+        "pitch": 59,
+        "rhythm": 7
+    },
+    "440": {
+        "pitch": 59,
+        "rhythm": 8
+    },
+    "441": {
+        "pitch": 59,
+        "rhythm": 9
+    },
+    "442": {
+        "pitch": 59,
+        "rhythm": 10
+    },
+    "443": {
+        "pitch": 59,
+        "rhythm": 11
+    },
+    "444": {
+        "pitch": 59,
+        "rhythm": 12
+    },
+    "445": {
+        "pitch": 59,
+        "rhythm": 13
+    },
+    "446": {
+        "pitch": 59,
+        "rhythm": 14
+    },
+    "447": {
+        "pitch": 59,
+        "rhythm": 15
+    },
+    "448": {
+        "pitch": 59,
+        "rhythm": 16
+    },
+    "449": {
+        "pitch": 60,
+        "rhythm": 1
+    },
+    "450": {
+        "pitch": 60,
+        "rhythm": 2
+    },
+    "451": {
+        "pitch": 60,
+        "rhythm": 3
+    },
+    "452": {
+        "pitch": 60,
+        "rhythm": 4
+    },
+    "453": {
+        "pitch": 60,
+        "rhythm": 5
+    },
+    "454": {
+        "pitch": 60,
+        "rhythm": 6
+    },
+    "455": {
+        "pitch": 60,
+        "rhythm": 7
+    },
+    "456": {
+        "pitch": 60,
+        "rhythm": 8
+    },
+    "457": {
+        "pitch": 60,
+        "rhythm": 9
+    },
+    "458": {
+        "pitch": 60,
+        "rhythm": 10
+    },
+    "459": {
+        "pitch": 60,
+        "rhythm": 11
+    },
+    "460": {
+        "pitch": 60,
+        "rhythm": 12
+    },
+    "461": {
+        "pitch": 60,
+        "rhythm": 13
+    },
+    "462": {
+        "pitch": 60,
+        "rhythm": 14
+    },
+    "463": {
+        "pitch": 60,
+        "rhythm": 15
+    },
+    "464": {
+        "pitch": 60,
+        "rhythm": 16
+    },
+    "465": {
+        "pitch": 61,
+        "rhythm": 1
+    },
+    "466": {
+        "pitch": 61,
+        "rhythm": 2
+    },
+    "467": {
+        "pitch": 61,
+        "rhythm": 3
+    },
+    "468": {
+        "pitch": 61,
+        "rhythm": 4
+    },
+    "469": {
+        "pitch": 61,
+        "rhythm": 5
+    },
+    "470": {
+        "pitch": 61,
+        "rhythm": 6
+    },
+    "471": {
+        "pitch": 61,
+        "rhythm": 7
+    },
+    "472": {
+        "pitch": 61,
+        "rhythm": 8
+    },
+    "473": {
+        "pitch": 61,
+        "rhythm": 9
+    },
+    "474": {
+        "pitch": 61,
+        "rhythm": 10
+    },
+    "475": {
+        "pitch": 61,
+        "rhythm": 11
+    },
+    "476": {
+        "pitch": 61,
+        "rhythm": 12
+    },
+    "477": {
+        "pitch": 61,
+        "rhythm": 13
+    },
+    "478": {
+        "pitch": 61,
+        "rhythm": 14
+    },
+    "479": {
+        "pitch": 61,
+        "rhythm": 15
+    },
+    "480": {
+        "pitch": 61,
+        "rhythm": 16
+    },
+    "481": {
+        "pitch": 62,
+        "rhythm": 1
+    },
+    "482": {
+        "pitch": 62,
+        "rhythm": 2
+    },
+    "483": {
+        "pitch": 62,
+        "rhythm": 3
+    },
+    "484": {
+        "pitch": 62,
+        "rhythm": 4
+    },
+    "485": {
+        "pitch": 62,
+        "rhythm": 5
+    },
+    "486": {
+        "pitch": 62,
+        "rhythm": 6
+    },
+    "487": {
+        "pitch": 62,
+        "rhythm": 7
+    },
+    "488": {
+        "pitch": 62,
+        "rhythm": 8
+    },
+    "489": {
+        "pitch": 62,
+        "rhythm": 9
+    },
+    "490": {
+        "pitch": 62,
+        "rhythm": 10
+    },
+    "491": {
+        "pitch": 62,
+        "rhythm": 11
+    },
+    "492": {
+        "pitch": 62,
+        "rhythm": 12
+    },
+    "493": {
+        "pitch": 62,
+        "rhythm": 13
+    },
+    "494": {
+        "pitch": 62,
+        "rhythm": 14
+    },
+    "495": {
+        "pitch": 62,
+        "rhythm": 15
+    },
+    "496": {
+        "pitch": 62,
+        "rhythm": 16
+    },
+    "497": {
+        "pitch": 63,
+        "rhythm": 1
+    },
+    "498": {
+        "pitch": 63,
+        "rhythm": 2
+    },
+    "499": {
+        "pitch": 63,
+        "rhythm": 3
+    },
+    "500": {
+        "pitch": 63,
+        "rhythm": 4
+    },
+    "501": {
+        "pitch": 63,
+        "rhythm": 5
+    },
+    "502": {
+        "pitch": 63,
+        "rhythm": 6
+    },
+    "503": {
+        "pitch": 63,
+        "rhythm": 7
+    },
+    "504": {
+        "pitch": 63,
+        "rhythm": 8
+    },
+    "505": {
+        "pitch": 63,
+        "rhythm": 9
+    },
+    "506": {
+        "pitch": 63,
+        "rhythm": 10
+    },
+    "507": {
+        "pitch": 63,
+        "rhythm": 11
+    },
+    "508": {
+        "pitch": 63,
+        "rhythm": 12
+    },
+    "509": {
+        "pitch": 63,
+        "rhythm": 13
+    },
+    "510": {
+        "pitch": 63,
+        "rhythm": 14
+    },
+    "511": {
+        "pitch": 63,
+        "rhythm": 15
+    },
+    "512": {
+        "pitch": 63,
+        "rhythm": 16
+    },
+    "513": {
+        "pitch": 64,
+        "rhythm": 1
+    },
+    "514": {
+        "pitch": 64,
+        "rhythm": 2
+    },
+    "515": {
+        "pitch": 64,
+        "rhythm": 3
+    },
+    "516": {
+        "pitch": 64,
+        "rhythm": 4
+    },
+    "517": {
+        "pitch": 64,
+        "rhythm": 5
+    },
+    "518": {
+        "pitch": 64,
+        "rhythm": 6
+    },
+    "519": {
+        "pitch": 64,
+        "rhythm": 7
+    },
+    "520": {
+        "pitch": 64,
+        "rhythm": 8
+    },
+    "521": {
+        "pitch": 64,
+        "rhythm": 9
+    },
+    "522": {
+        "pitch": 64,
+        "rhythm": 10
+    },
+    "523": {
+        "pitch": 64,
+        "rhythm": 11
+    },
+    "524": {
+        "pitch": 64,
+        "rhythm": 12
+    },
+    "525": {
+        "pitch": 64,
+        "rhythm": 13
+    },
+    "526": {
+        "pitch": 64,
+        "rhythm": 14
+    },
+    "527": {
+        "pitch": 64,
+        "rhythm": 15
+    },
+    "528": {
+        "pitch": 64,
+        "rhythm": 16
+    },
+    "529": {
+        "pitch": 65,
+        "rhythm": 1
+    },
+    "530": {
+        "pitch": 65,
+        "rhythm": 2
+    },
+    "531": {
+        "pitch": 65,
+        "rhythm": 3
+    },
+    "532": {
+        "pitch": 65,
+        "rhythm": 4
+    },
+    "533": {
+        "pitch": 65,
+        "rhythm": 5
+    },
+    "534": {
+        "pitch": 65,
+        "rhythm": 6
+    },
+    "535": {
+        "pitch": 65,
+        "rhythm": 7
+    },
+    "536": {
+        "pitch": 65,
+        "rhythm": 8
+    },
+    "537": {
+        "pitch": 65,
+        "rhythm": 9
+    },
+    "538": {
+        "pitch": 65,
+        "rhythm": 10
+    },
+    "539": {
+        "pitch": 65,
+        "rhythm": 11
+    },
+    "540": {
+        "pitch": 65,
+        "rhythm": 12
+    },
+    "541": {
+        "pitch": 65,
+        "rhythm": 13
+    },
+    "542": {
+        "pitch": 65,
+        "rhythm": 14
+    },
+    "543": {
+        "pitch": 65,
+        "rhythm": 15
+    },
+    "544": {
+        "pitch": 65,
+        "rhythm": 16
+    },
+    "545": {
+        "pitch": 66,
+        "rhythm": 1
+    },
+    "546": {
+        "pitch": 66,
+        "rhythm": 2
+    },
+    "547": {
+        "pitch": 66,
+        "rhythm": 3
+    },
+    "548": {
+        "pitch": 66,
+        "rhythm": 4
+    },
+    "549": {
+        "pitch": 66,
+        "rhythm": 5
+    },
+    "550": {
+        "pitch": 66,
+        "rhythm": 6
+    },
+    "551": {
+        "pitch": 66,
+        "rhythm": 7
+    },
+    "552": {
+        "pitch": 66,
+        "rhythm": 8
+    },
+    "553": {
+        "pitch": 66,
+        "rhythm": 9
+    },
+    "554": {
+        "pitch": 66,
+        "rhythm": 10
+    },
+    "555": {
+        "pitch": 66,
+        "rhythm": 11
+    },
+    "556": {
+        "pitch": 66,
+        "rhythm": 12
+    },
+    "557": {
+        "pitch": 66,
+        "rhythm": 14
+    },
+    "558": {
+        "pitch": 66,
+        "rhythm": 15
+    },
+    "559": {
+        "pitch": 66,
+        "rhythm": 16
+    },
+    "560": {
+        "pitch": 67,
+        "rhythm": 1
+    },
+    "561": {
+        "pitch": 67,
+        "rhythm": 2
+    },
+    "562": {
+        "pitch": 67,
+        "rhythm": 3
+    },
+    "563": {
+        "pitch": 67,
+        "rhythm": 4
+    },
+    "564": {
+        "pitch": 67,
+        "rhythm": 5
+    },
+    "565": {
+        "pitch": 67,
+        "rhythm": 6
+    },
+    "566": {
+        "pitch": 67,
+        "rhythm": 7
+    },
+    "567": {
+        "pitch": 67,
+        "rhythm": 8
+    },
+    "568": {
+        "pitch": 67,
+        "rhythm": 9
+    },
+    "569": {
+        "pitch": 67,
+        "rhythm": 10
+    },
+    "570": {
+        "pitch": 67,
+        "rhythm": 11
+    },
+    "571": {
+        "pitch": 67,
+        "rhythm": 12
+    },
+    "572": {
+        "pitch": 67,
+        "rhythm": 13
+    },
+    "573": {
+        "pitch": 67,
+        "rhythm": 14
+    },
+    "574": {
+        "pitch": 67,
+        "rhythm": 15
+    },
+    "575": {
+        "pitch": 67,
+        "rhythm": 16
+    },
+    "576": {
+        "pitch": 68,
+        "rhythm": 1
+    },
+    "577": {
+        "pitch": 68,
+        "rhythm": 2
+    },
+    "578": {
+        "pitch": 68,
+        "rhythm": 3
+    },
+    "579": {
+        "pitch": 68,
+        "rhythm": 4
+    },
+    "580": {
+        "pitch": 68,
+        "rhythm": 5
+    },
+    "581": {
+        "pitch": 68,
+        "rhythm": 6
+    },
+    "582": {
+        "pitch": 68,
+        "rhythm": 7
+    },
+    "583": {
+        "pitch": 68,
+        "rhythm": 8
+    },
+    "584": {
+        "pitch": 68,
+        "rhythm": 9
+    },
+    "585": {
+        "pitch": 68,
+        "rhythm": 10
+    },
+    "586": {
+        "pitch": 68,
+        "rhythm": 11
+    },
+    "587": {
+        "pitch": 68,
+        "rhythm": 12
+    },
+    "588": {
+        "pitch": 68,
+        "rhythm": 13
+    },
+    "589": {
+        "pitch": 68,
+        "rhythm": 14
+    },
+    "590": {
+        "pitch": 68,
+        "rhythm": 15
+    },
+    "591": {
+        "pitch": 68,
+        "rhythm": 16
+    },
+    "592": {
+        "pitch": 69,
+        "rhythm": 1
+    },
+    "593": {
+        "pitch": 69,
+        "rhythm": 2
+    },
+    "594": {
+        "pitch": 69,
+        "rhythm": 3
+    },
+    "595": {
+        "pitch": 69,
+        "rhythm": 4
+    },
+    "596": {
+        "pitch": 69,
+        "rhythm": 5
+    },
+    "597": {
+        "pitch": 69,
+        "rhythm": 6
+    },
+    "598": {
+        "pitch": 69,
+        "rhythm": 7
+    },
+    "599": {
+        "pitch": 69,
+        "rhythm": 8
+    },
+    "600": {
+        "pitch": 69,
+        "rhythm": 9
+    },
+    "601": {
+        "pitch": 69,
+        "rhythm": 10
+    },
+    "602": {
+        "pitch": 69,
+        "rhythm": 11
+    },
+    "603": {
+        "pitch": 69,
+        "rhythm": 12
+    },
+    "604": {
+        "pitch": 69,
+        "rhythm": 13
+    },
+    "605": {
+        "pitch": 69,
+        "rhythm": 14
+    },
+    "606": {
+        "pitch": 69,
+        "rhythm": 15
+    },
+    "607": {
+        "pitch": 69,
+        "rhythm": 16
+    },
+    "608": {
+        "pitch": 70,
+        "rhythm": 1
+    },
+    "609": {
+        "pitch": 70,
+        "rhythm": 2
+    },
+    "610": {
+        "pitch": 70,
+        "rhythm": 3
+    },
+    "611": {
+        "pitch": 70,
+        "rhythm": 4
+    },
+    "612": {
+        "pitch": 70,
+        "rhythm": 5
+    },
+    "613": {
+        "pitch": 70,
+        "rhythm": 6
+    },
+    "614": {
+        "pitch": 70,
+        "rhythm": 7
+    },
+    "615": {
+        "pitch": 70,
+        "rhythm": 8
+    },
+    "616": {
+        "pitch": 70,
+        "rhythm": 9
+    },
+    "617": {
+        "pitch": 70,
+        "rhythm": 10
+    },
+    "618": {
+        "pitch": 70,
+        "rhythm": 11
+    },
+    "619": {
+        "pitch": 70,
+        "rhythm": 12
+    },
+    "620": {
+        "pitch": 70,
+        "rhythm": 13
+    },
+    "621": {
+        "pitch": 70,
+        "rhythm": 14
+    },
+    "622": {
+        "pitch": 70,
+        "rhythm": 15
+    },
+    "623": {
+        "pitch": 70,
+        "rhythm": 16
+    },
+    "624": {
+        "pitch": 71,
+        "rhythm": 1
+    },
+    "625": {
+        "pitch": 71,
+        "rhythm": 2
+    },
+    "626": {
+        "pitch": 71,
+        "rhythm": 3
+    },
+    "627": {
+        "pitch": 71,
+        "rhythm": 4
+    },
+    "628": {
+        "pitch": 71,
+        "rhythm": 5
+    },
+    "629": {
+        "pitch": 71,
+        "rhythm": 6
+    },
+    "630": {
+        "pitch": 71,
+        "rhythm": 7
+    },
+    "631": {
+        "pitch": 71,
+        "rhythm": 8
+    },
+    "632": {
+        "pitch": 71,
+        "rhythm": 9
+    },
+    "633": {
+        "pitch": 71,
+        "rhythm": 10
+    },
+    "634": {
+        "pitch": 71,
+        "rhythm": 11
+    },
+    "635": {
+        "pitch": 71,
+        "rhythm": 12
+    },
+    "636": {
+        "pitch": 71,
+        "rhythm": 13
+    },
+    "637": {
+        "pitch": 71,
+        "rhythm": 14
+    },
+    "638": {
+        "pitch": 71,
+        "rhythm": 15
+    },
+    "639": {
+        "pitch": 71,
+        "rhythm": 16
+    },
+    "640": {
+        "pitch": 72,
+        "rhythm": 1
+    },
+    "641": {
+        "pitch": 72,
+        "rhythm": 2
+    },
+    "642": {
+        "pitch": 72,
+        "rhythm": 3
+    },
+    "643": {
+        "pitch": 72,
+        "rhythm": 4
+    },
+    "644": {
+        "pitch": 72,
+        "rhythm": 5
+    },
+    "645": {
+        "pitch": 72,
+        "rhythm": 6
+    },
+    "646": {
+        "pitch": 72,
+        "rhythm": 7
+    },
+    "647": {
+        "pitch": 72,
+        "rhythm": 8
+    },
+    "648": {
+        "pitch": 72,
+        "rhythm": 9
+    },
+    "649": {
+        "pitch": 72,
+        "rhythm": 10
+    },
+    "650": {
+        "pitch": 72,
+        "rhythm": 11
+    },
+    "651": {
+        "pitch": 72,
+        "rhythm": 12
+    },
+    "652": {
+        "pitch": 72,
+        "rhythm": 13
+    },
+    "653": {
+        "pitch": 72,
+        "rhythm": 14
+    },
+    "654": {
+        "pitch": 72,
+        "rhythm": 15
+    },
+    "655": {
+        "pitch": 72,
+        "rhythm": 16
+    },
+    "656": {
+        "pitch": 73,
+        "rhythm": 1
+    },
+    "657": {
+        "pitch": 73,
+        "rhythm": 2
+    },
+    "658": {
+        "pitch": 73,
+        "rhythm": 3
+    },
+    "659": {
+        "pitch": 73,
+        "rhythm": 4
+    },
+    "660": {
+        "pitch": 73,
+        "rhythm": 5
+    },
+    "661": {
+        "pitch": 73,
+        "rhythm": 6
+    },
+    "662": {
+        "pitch": 73,
+        "rhythm": 7
+    },
+    "663": {
+        "pitch": 73,
+        "rhythm": 8
+    },
+    "664": {
+        "pitch": 73,
+        "rhythm": 9
+    },
+    "665": {
+        "pitch": 73,
+        "rhythm": 10
+    },
+    "666": {
+        "pitch": 73,
+        "rhythm": 11
+    },
+    "667": {
+        "pitch": 73,
+        "rhythm": 12
+    },
+    "668": {
+        "pitch": 73,
+        "rhythm": 13
+    },
+    "669": {
+        "pitch": 73,
+        "rhythm": 14
+    },
+    "670": {
+        "pitch": 73,
+        "rhythm": 15
+    },
+    "671": {
+        "pitch": 73,
+        "rhythm": 16
+    },
+    "672": {
+        "pitch": 74,
+        "rhythm": 1
+    },
+    "673": {
+        "pitch": 74,
+        "rhythm": 2
+    },
+    "674": {
+        "pitch": 74,
+        "rhythm": 3
+    },
+    "675": {
+        "pitch": 74,
+        "rhythm": 4
+    },
+    "676": {
+        "pitch": 74,
+        "rhythm": 5
+    },
+    "677": {
+        "pitch": 74,
+        "rhythm": 6
+    },
+    "678": {
+        "pitch": 74,
+        "rhythm": 7
+    },
+    "679": {
+        "pitch": 74,
+        "rhythm": 8
+    },
+    "680": {
+        "pitch": 74,
+        "rhythm": 9
+    },
+    "681": {
+        "pitch": 74,
+        "rhythm": 10
+    },
+    "682": {
+        "pitch": 74,
+        "rhythm": 11
+    },
+    "683": {
+        "pitch": 74,
+        "rhythm": 12
+    },
+    "684": {
+        "pitch": 74,
+        "rhythm": 13
+    },
+    "685": {
+        "pitch": 74,
+        "rhythm": 14
+    },
+    "686": {
+        "pitch": 74,
+        "rhythm": 15
+    },
+    "687": {
+        "pitch": 74,
+        "rhythm": 16
+    },
+    "688": {
+        "pitch": 75,
+        "rhythm": 1
+    },
+    "689": {
+        "pitch": 75,
+        "rhythm": 2
+    },
+    "690": {
+        "pitch": 75,
+        "rhythm": 3
+    },
+    "691": {
+        "pitch": 75,
+        "rhythm": 4
+    },
+    "692": {
+        "pitch": 75,
+        "rhythm": 5
+    },
+    "693": {
+        "pitch": 75,
+        "rhythm": 6
+    },
+    "694": {
+        "pitch": 75,
+        "rhythm": 7
+    },
+    "695": {
+        "pitch": 75,
+        "rhythm": 8
+    },
+    "696": {
+        "pitch": 75,
+        "rhythm": 9
+    },
+    "697": {
+        "pitch": 75,
+        "rhythm": 10
+    },
+    "698": {
+        "pitch": 75,
+        "rhythm": 11
+    },
+    "699": {
+        "pitch": 75,
+        "rhythm": 12
+    },
+    "700": {
+        "pitch": 75,
+        "rhythm": 13
+    },
+    "701": {
+        "pitch": 75,
+        "rhythm": 14
+    },
+    "702": {
+        "pitch": 75,
+        "rhythm": 15
+    },
+    "703": {
+        "pitch": 75,
+        "rhythm": 16
+    },
+    "704": {
+        "pitch": 76,
+        "rhythm": 1
+    },
+    "705": {
+        "pitch": 76,
+        "rhythm": 2
+    },
+    "706": {
+        "pitch": 76,
+        "rhythm": 3
+    },
+    "707": {
+        "pitch": 76,
+        "rhythm": 4
+    },
+    "708": {
+        "pitch": 76,
+        "rhythm": 5
+    },
+    "709": {
+        "pitch": 76,
+        "rhythm": 6
+    },
+    "710": {
+        "pitch": 76,
+        "rhythm": 7
+    },
+    "711": {
+        "pitch": 76,
+        "rhythm": 8
+    },
+    "712": {
+        "pitch": 76,
+        "rhythm": 9
+    },
+    "713": {
+        "pitch": 76,
+        "rhythm": 10
+    },
+    "714": {
+        "pitch": 76,
+        "rhythm": 11
+    },
+    "715": {
+        "pitch": 76,
+        "rhythm": 12
+    },
+    "716": {
+        "pitch": 76,
+        "rhythm": 13
+    },
+    "717": {
+        "pitch": 76,
+        "rhythm": 14
+    },
+    "718": {
+        "pitch": 76,
+        "rhythm": 15
+    },
+    "719": {
+        "pitch": 76,
+        "rhythm": 16
+    },
+    "720": {
+        "pitch": 77,
+        "rhythm": 1
+    },
+    "721": {
+        "pitch": 77,
+        "rhythm": 2
+    },
+    "722": {
+        "pitch": 77,
+        "rhythm": 3
+    },
+    "723": {
+        "pitch": 77,
+        "rhythm": 4
+    },
+    "724": {
+        "pitch": 77,
+        "rhythm": 5
+    },
+    "725": {
+        "pitch": 77,
+        "rhythm": 6
+    },
+    "726": {
+        "pitch": 77,
+        "rhythm": 7
+    },
+    "727": {
+        "pitch": 77,
+        "rhythm": 8
+    },
+    "728": {
+        "pitch": 77,
+        "rhythm": 9
+    },
+    "729": {
+        "pitch": 77,
+        "rhythm": 10
+    },
+    "730": {
+        "pitch": 77,
+        "rhythm": 11
+    },
+    "731": {
+        "pitch": 77,
+        "rhythm": 12
+    },
+    "732": {
+        "pitch": 77,
+        "rhythm": 13
+    },
+    "733": {
+        "pitch": 77,
+        "rhythm": 14
+    },
+    "734": {
+        "pitch": 77,
+        "rhythm": 15
+    },
+    "735": {
+        "pitch": 77,
+        "rhythm": 16
+    },
+    "736": {
+        "pitch": 78,
+        "rhythm": 1
+    },
+    "737": {
+        "pitch": 78,
+        "rhythm": 2
+    },
+    "738": {
+        "pitch": 78,
+        "rhythm": 3
+    },
+    "739": {
+        "pitch": 78,
+        "rhythm": 4
+    },
+    "740": {
+        "pitch": 78,
+        "rhythm": 5
+    },
+    "741": {
+        "pitch": 78,
+        "rhythm": 6
+    },
+    "742": {
+        "pitch": 78,
+        "rhythm": 7
+    },
+    "743": {
+        "pitch": 78,
+        "rhythm": 8
+    },
+    "744": {
+        "pitch": 78,
+        "rhythm": 9
+    },
+    "745": {
+        "pitch": 78,
+        "rhythm": 10
+    },
+    "746": {
+        "pitch": 78,
+        "rhythm": 11
+    },
+    "747": {
+        "pitch": 78,
+        "rhythm": 12
+    },
+    "748": {
+        "pitch": 78,
+        "rhythm": 13
+    },
+    "749": {
+        "pitch": 78,
+        "rhythm": 14
+    },
+    "750": {
+        "pitch": 78,
+        "rhythm": 16
+    },
+    "751": {
+        "pitch": 79,
+        "rhythm": 1
+    },
+    "752": {
+        "pitch": 79,
+        "rhythm": 2
+    },
+    "753": {
+        "pitch": 79,
+        "rhythm": 3
+    },
+    "754": {
+        "pitch": 79,
+        "rhythm": 4
+    },
+    "755": {
+        "pitch": 79,
+        "rhythm": 5
+    },
+    "756": {
+        "pitch": 79,
+        "rhythm": 6
+    },
+    "757": {
+        "pitch": 79,
+        "rhythm": 7
+    },
+    "758": {
+        "pitch": 79,
+        "rhythm": 8
+    },
+    "759": {
+        "pitch": 79,
+        "rhythm": 9
+    },
+    "760": {
+        "pitch": 79,
+        "rhythm": 10
+    },
+    "761": {
+        "pitch": 79,
+        "rhythm": 11
+    },
+    "762": {
+        "pitch": 79,
+        "rhythm": 12
+    },
+    "763": {
+        "pitch": 79,
+        "rhythm": 13
+    },
+    "764": {
+        "pitch": 79,
+        "rhythm": 14
+    },
+    "765": {
+        "pitch": 79,
+        "rhythm": 15
+    },
+    "766": {
+        "pitch": 79,
+        "rhythm": 16
+    },
+    "767": {
+        "pitch": 80,
+        "rhythm": 1
+    },
+    "768": {
+        "pitch": 80,
+        "rhythm": 2
+    },
+    "769": {
+        "pitch": 80,
+        "rhythm": 3
+    },
+    "770": {
+        "pitch": 80,
+        "rhythm": 4
+    },
+    "771": {
+        "pitch": 80,
+        "rhythm": 5
+    },
+    "772": {
+        "pitch": 80,
+        "rhythm": 6
+    },
+    "773": {
+        "pitch": 80,
+        "rhythm": 7
+    },
+    "774": {
+        "pitch": 80,
+        "rhythm": 8
+    },
+    "775": {
+        "pitch": 80,
+        "rhythm": 9
+    },
+    "776": {
+        "pitch": 80,
+        "rhythm": 10
+    },
+    "777": {
+        "pitch": 80,
+        "rhythm": 11
+    },
+    "778": {
+        "pitch": 80,
+        "rhythm": 12
+    },
+    "779": {
+        "pitch": 80,
+        "rhythm": 14
+    },
+    "780": {
+        "pitch": 80,
+        "rhythm": 15
+    },
+    "781": {
+        "pitch": 80,
+        "rhythm": 16
+    },
+    "782": {
+        "pitch": 81,
+        "rhythm": 1
+    },
+    "783": {
+        "pitch": 81,
+        "rhythm": 2
+    },
+    "784": {
+        "pitch": 81,
+        "rhythm": 3
+    },
+    "785": {
+        "pitch": 81,
+        "rhythm": 4
+    },
+    "786": {
+        "pitch": 81,
+        "rhythm": 5
+    },
+    "787": {
+        "pitch": 81,
+        "rhythm": 6
+    },
+    "788": {
+        "pitch": 81,
+        "rhythm": 7
+    },
+    "789": {
+        "pitch": 81,
+        "rhythm": 8
+    },
+    "790": {
+        "pitch": 81,
+        "rhythm": 9
+    },
+    "791": {
+        "pitch": 81,
+        "rhythm": 10
+    },
+    "792": {
+        "pitch": 81,
+        "rhythm": 11
+    },
+    "793": {
+        "pitch": 81,
+        "rhythm": 12
+    },
+    "794": {
+        "pitch": 81,
+        "rhythm": 13
+    },
+    "795": {
+        "pitch": 81,
+        "rhythm": 14
+    },
+    "796": {
+        "pitch": 81,
+        "rhythm": 15
+    },
+    "797": {
+        "pitch": 81,
+        "rhythm": 16
+    },
+    "798": {
+        "pitch": 82,
+        "rhythm": 1
+    },
+    "799": {
+        "pitch": 82,
+        "rhythm": 2
+    },
+    "800": {
+        "pitch": 82,
+        "rhythm": 3
+    },
+    "801": {
+        "pitch": 82,
+        "rhythm": 4
+    },
+    "802": {
+        "pitch": 82,
+        "rhythm": 5
+    },
+    "803": {
+        "pitch": 82,
+        "rhythm": 6
+    },
+    "804": {
+        "pitch": 82,
+        "rhythm": 7
+    },
+    "805": {
+        "pitch": 82,
+        "rhythm": 8
+    },
+    "806": {
+        "pitch": 82,
+        "rhythm": 9
+    },
+    "807": {
+        "pitch": 82,
+        "rhythm": 10
+    },
+    "808": {
+        "pitch": 82,
+        "rhythm": 11
+    },
+    "809": {
+        "pitch": 82,
+        "rhythm": 12
+    },
+    "810": {
+        "pitch": 82,
+        "rhythm": 14
+    },
+    "811": {
+        "pitch": 82,
+        "rhythm": 15
+    },
+    "812": {
+        "pitch": 82,
+        "rhythm": 16
+    },
+    "813": {
+        "pitch": 83,
+        "rhythm": 1
+    },
+    "814": {
+        "pitch": 83,
+        "rhythm": 2
+    },
+    "815": {
+        "pitch": 83,
+        "rhythm": 3
+    },
+    "816": {
+        "pitch": 83,
+        "rhythm": 4
+    },
+    "817": {
+        "pitch": 83,
+        "rhythm": 5
+    },
+    "818": {
+        "pitch": 83,
+        "rhythm": 6
+    },
+    "819": {
+        "pitch": 83,
+        "rhythm": 7
+    },
+    "820": {
+        "pitch": 83,
+        "rhythm": 8
+    },
+    "821": {
+        "pitch": 83,
+        "rhythm": 9
+    },
+    "822": {
+        "pitch": 83,
+        "rhythm": 10
+    },
+    "823": {
+        "pitch": 83,
+        "rhythm": 12
+    },
+    "824": {
+        "pitch": 83,
+        "rhythm": 13
+    },
+    "825": {
+        "pitch": 83,
+        "rhythm": 14
+    },
+    "826": {
+        "pitch": 83,
+        "rhythm": 15
+    },
+    "827": {
+        "pitch": 83,
+        "rhythm": 16
+    },
+    "828": {
+        "pitch": 84,
+        "rhythm": 1
+    },
+    "829": {
+        "pitch": 84,
+        "rhythm": 2
+    },
+    "830": {
+        "pitch": 84,
+        "rhythm": 3
+    },
+    "831": {
+        "pitch": 84,
+        "rhythm": 4
+    },
+    "832": {
+        "pitch": 84,
+        "rhythm": 5
+    },
+    "833": {
+        "pitch": 84,
+        "rhythm": 6
+    },
+    "834": {
+        "pitch": 84,
+        "rhythm": 7
+    },
+    "835": {
+        "pitch": 84,
+        "rhythm": 8
+    },
+    "836": {
+        "pitch": 84,
+        "rhythm": 9
+    },
+    "837": {
+        "pitch": 84,
+        "rhythm": 10
+    },
+    "838": {
+        "pitch": 84,
+        "rhythm": 11
+    },
+    "839": {
+        "pitch": 84,
+        "rhythm": 12
+    },
+    "840": {
+        "pitch": 84,
+        "rhythm": 14
+    },
+    "841": {
+        "pitch": 84,
+        "rhythm": 15
+    },
+    "842": {
+        "pitch": 84,
+        "rhythm": 16
+    },
+    "843": {
+        "pitch": 85,
+        "rhythm": 1
+    },
+    "844": {
+        "pitch": 85,
+        "rhythm": 2
+    },
+    "845": {
+        "pitch": 85,
+        "rhythm": 3
+    },
+    "846": {
+        "pitch": 85,
+        "rhythm": 4
+    },
+    "847": {
+        "pitch": 85,
+        "rhythm": 5
+    },
+    "848": {
+        "pitch": 85,
+        "rhythm": 6
+    },
+    "849": {
+        "pitch": 85,
+        "rhythm": 7
+    },
+    "850": {
+        "pitch": 85,
+        "rhythm": 8
+    },
+    "851": {
+        "pitch": 85,
+        "rhythm": 9
+    },
+    "852": {
+        "pitch": 85,
+        "rhythm": 10
+    },
+    "853": {
+        "pitch": 85,
+        "rhythm": 12
+    },
+    "854": {
+        "pitch": 85,
+        "rhythm": 14
+    },
+    "855": {
+        "pitch": 85,
+        "rhythm": 15
+    },
+    "856": {
+        "pitch": 85,
+        "rhythm": 16
+    },
+    "857": {
+        "pitch": 86,
+        "rhythm": 1
+    },
+    "858": {
+        "pitch": 86,
+        "rhythm": 2
+    },
+    "859": {
+        "pitch": 86,
+        "rhythm": 3
+    },
+    "860": {
+        "pitch": 86,
+        "rhythm": 4
+    },
+    "861": {
+        "pitch": 86,
+        "rhythm": 5
+    },
+    "862": {
+        "pitch": 86,
+        "rhythm": 6
+    },
+    "863": {
+        "pitch": 86,
+        "rhythm": 7
+    },
+    "864": {
+        "pitch": 86,
+        "rhythm": 8
+    },
+    "865": {
+        "pitch": 86,
+        "rhythm": 9
+    },
+    "866": {
+        "pitch": 86,
+        "rhythm": 10
+    },
+    "867": {
+        "pitch": 86,
+        "rhythm": 11
+    },
+    "868": {
+        "pitch": 86,
+        "rhythm": 12
+    },
+    "869": {
+        "pitch": 86,
+        "rhythm": 13
+    },
+    "870": {
+        "pitch": 86,
+        "rhythm": 14
+    },
+    "871": {
+        "pitch": 86,
+        "rhythm": 15
+    },
+    "872": {
+        "pitch": 86,
+        "rhythm": 16
+    },
+    "873": {
+        "pitch": 87,
+        "rhythm": 1
+    },
+    "874": {
+        "pitch": 87,
+        "rhythm": 2
+    },
+    "875": {
+        "pitch": 87,
+        "rhythm": 3
+    },
+    "876": {
+        "pitch": 87,
+        "rhythm": 4
+    },
+    "877": {
+        "pitch": 87,
+        "rhythm": 5
+    },
+    "878": {
+        "pitch": 87,
+        "rhythm": 6
+    },
+    "879": {
+        "pitch": 87,
+        "rhythm": 7
+    },
+    "880": {
+        "pitch": 87,
+        "rhythm": 8
+    },
+    "881": {
+        "pitch": 87,
+        "rhythm": 9
+    },
+    "882": {
+        "pitch": 87,
+        "rhythm": 10
+    },
+    "883": {
+        "pitch": 87,
+        "rhythm": 12
+    },
+    "884": {
+        "pitch": 87,
+        "rhythm": 14
+    },
+    "885": {
+        "pitch": 87,
+        "rhythm": 16
+    },
+    "886": {
+        "pitch": 88,
+        "rhythm": 1
+    },
+    "887": {
+        "pitch": 88,
+        "rhythm": 2
+    },
+    "888": {
+        "pitch": 88,
+        "rhythm": 3
+    },
+    "889": {
+        "pitch": 88,
+        "rhythm": 4
+    },
+    "890": {
+        "pitch": 88,
+        "rhythm": 5
+    },
+    "891": {
+        "pitch": 88,
+        "rhythm": 6
+    },
+    "892": {
+        "pitch": 88,
+        "rhythm": 7
+    },
+    "893": {
+        "pitch": 88,
+        "rhythm": 8
+    },
+    "894": {
+        "pitch": 88,
+        "rhythm": 9
+    },
+    "895": {
+        "pitch": 88,
+        "rhythm": 10
+    },
+    "896": {
+        "pitch": 88,
+        "rhythm": 12
+    },
+    "897": {
+        "pitch": 88,
+        "rhythm": 14
+    },
+    "898": {
+        "pitch": 88,
+        "rhythm": 15
+    },
+    "899": {
+        "pitch": 88,
+        "rhythm": 16
+    },
+    "900": {
+        "pitch": 89,
+        "rhythm": 1
+    },
+    "901": {
+        "pitch": 89,
+        "rhythm": 2
+    },
+    "902": {
+        "pitch": 89,
+        "rhythm": 3
+    },
+    "903": {
+        "pitch": 89,
+        "rhythm": 4
+    },
+    "904": {
+        "pitch": 89,
+        "rhythm": 5
+    },
+    "905": {
+        "pitch": 89,
+        "rhythm": 6
+    },
+    "906": {
+        "pitch": 89,
+        "rhythm": 7
+    },
+    "907": {
+        "pitch": 89,
+        "rhythm": 8
+    },
+    "908": {
+        "pitch": 89,
+        "rhythm": 10
+    },
+    "909": {
+        "pitch": 89,
+        "rhythm": 11
+    },
+    "910": {
+        "pitch": 89,
+        "rhythm": 12
+    },
+    "911": {
+        "pitch": 89,
+        "rhythm": 13
+    },
+    "912": {
+        "pitch": 89,
+        "rhythm": 14
+    },
+    "913": {
+        "pitch": 89,
+        "rhythm": 15
+    },
+    "914": {
+        "pitch": 89,
+        "rhythm": 16
+    },
+    "915": {
+        "pitch": 90,
+        "rhythm": 1
+    },
+    "916": {
+        "pitch": 90,
+        "rhythm": 2
+    },
+    "917": {
+        "pitch": 90,
+        "rhythm": 3
+    },
+    "918": {
+        "pitch": 90,
+        "rhythm": 4
+    },
+    "919": {
+        "pitch": 90,
+        "rhythm": 5
+    },
+    "920": {
+        "pitch": 90,
+        "rhythm": 6
+    },
+    "921": {
+        "pitch": 90,
+        "rhythm": 8
+    },
+    "922": {
+        "pitch": 90,
+        "rhythm": 9
+    },
+    "923": {
+        "pitch": 90,
+        "rhythm": 10
+    },
+    "924": {
+        "pitch": 90,
+        "rhythm": 11
+    },
+    "925": {
+        "pitch": 90,
+        "rhythm": 12
+    },
+    "926": {
+        "pitch": 90,
+        "rhythm": 14
+    },
+    "927": {
+        "pitch": 90,
+        "rhythm": 15
+    },
+    "928": {
+        "pitch": 90,
+        "rhythm": 16
+    },
+    "929": {
+        "pitch": 91,
+        "rhythm": 1
+    },
+    "930": {
+        "pitch": 91,
+        "rhythm": 2
+    },
+    "931": {
+        "pitch": 91,
+        "rhythm": 3
+    },
+    "932": {
+        "pitch": 91,
+        "rhythm": 4
+    },
+    "933": {
+        "pitch": 91,
+        "rhythm": 5
+    },
+    "934": {
+        "pitch": 91,
+        "rhythm": 6
+    },
+    "935": {
+        "pitch": 91,
+        "rhythm": 7
+    },
+    "936": {
+        "pitch": 91,
+        "rhythm": 8
+    },
+    "937": {
+        "pitch": 91,
+        "rhythm": 9
+    },
+    "938": {
+        "pitch": 91,
+        "rhythm": 10
+    },
+    "939": {
+        "pitch": 91,
+        "rhythm": 12
+    },
+    "940": {
+        "pitch": 91,
+        "rhythm": 14
+    },
+    "941": {
+        "pitch": 91,
+        "rhythm": 16
+    },
+    "942": {
+        "pitch": 92,
+        "rhythm": 1
+    },
+    "943": {
+        "pitch": 92,
+        "rhythm": 2
+    },
+    "944": {
+        "pitch": 92,
+        "rhythm": 3
+    },
+    "945": {
+        "pitch": 92,
+        "rhythm": 4
+    },
+    "946": {
+        "pitch": 92,
+        "rhythm": 5
+    },
+    "947": {
+        "pitch": 92,
+        "rhythm": 6
+    },
+    "948": {
+        "pitch": 92,
+        "rhythm": 8
+    },
+    "949": {
+        "pitch": 92,
+        "rhythm": 10
+    },
+    "950": {
+        "pitch": 92,
+        "rhythm": 12
+    },
+    "951": {
+        "pitch": 92,
+        "rhythm": 16
+    },
+    "952": {
+        "pitch": 93,
+        "rhythm": 1
+    },
+    "953": {
+        "pitch": 93,
+        "rhythm": 2
+    },
+    "954": {
+        "pitch": 93,
+        "rhythm": 3
+    },
+    "955": {
+        "pitch": 93,
+        "rhythm": 4
+    },
+    "956": {
+        "pitch": 93,
+        "rhythm": 5
+    },
+    "957": {
+        "pitch": 93,
+        "rhythm": 6
+    },
+    "958": {
+        "pitch": 93,
+        "rhythm": 7
+    },
+    "959": {
+        "pitch": 93,
+        "rhythm": 8
+    },
+    "960": {
+        "pitch": 93,
+        "rhythm": 9
+    },
+    "961": {
+        "pitch": 93,
+        "rhythm": 10
+    },
+    "962": {
+        "pitch": 93,
+        "rhythm": 12
+    },
+    "963": {
+        "pitch": 93,
+        "rhythm": 13
+    },
+    "964": {
+        "pitch": 93,
+        "rhythm": 14
+    },
+    "965": {
+        "pitch": 93,
+        "rhythm": 15
+    },
+    "966": {
+        "pitch": 93,
+        "rhythm": 16
+    },
+    "967": {
+        "pitch": 94,
+        "rhythm": 1
+    },
+    "968": {
+        "pitch": 94,
+        "rhythm": 2
+    },
+    "969": {
+        "pitch": 94,
+        "rhythm": 3
+    },
+    "970": {
+        "pitch": 94,
+        "rhythm": 4
+    },
+    "971": {
+        "pitch": 94,
+        "rhythm": 5
+    },
+    "972": {
+        "pitch": 94,
+        "rhythm": 6
+    },
+    "973": {
+        "pitch": 94,
+        "rhythm": 7
+    },
+    "974": {
+        "pitch": 94,
+        "rhythm": 8
+    },
+    "975": {
+        "pitch": 94,
+        "rhythm": 12
+    },
+    "976": {
+        "pitch": 94,
+        "rhythm": 14
+    },
+    "977": {
+        "pitch": 94,
+        "rhythm": 15
+    },
+    "978": {
+        "pitch": 94,
+        "rhythm": 16
+    },
+    "979": {
+        "pitch": 95,
+        "rhythm": 1
+    },
+    "980": {
+        "pitch": 95,
+        "rhythm": 2
+    },
+    "981": {
+        "pitch": 95,
+        "rhythm": 3
+    },
+    "982": {
+        "pitch": 95,
+        "rhythm": 4
+    },
+    "983": {
+        "pitch": 95,
+        "rhythm": 5
+    },
+    "984": {
+        "pitch": 95,
+        "rhythm": 6
+    },
+    "985": {
+        "pitch": 95,
+        "rhythm": 7
+    },
+    "986": {
+        "pitch": 95,
+        "rhythm": 8
+    },
+    "987": {
+        "pitch": 95,
+        "rhythm": 9
+    },
+    "988": {
+        "pitch": 95,
+        "rhythm": 10
+    },
+    "989": {
+        "pitch": 95,
+        "rhythm": 12
+    },
+    "990": {
+        "pitch": 95,
+        "rhythm": 14
+    },
+    "991": {
+        "pitch": 95,
+        "rhythm": 16
+    },
+    "992": {
+        "pitch": 96,
+        "rhythm": 1
+    },
+    "993": {
+        "pitch": 96,
+        "rhythm": 2
+    },
+    "994": {
+        "pitch": 96,
+        "rhythm": 3
+    },
+    "995": {
+        "pitch": 96,
+        "rhythm": 4
+    },
+    "996": {
+        "pitch": 96,
+        "rhythm": 5
+    },
+    "997": {
+        "pitch": 96,
+        "rhythm": 6
+    },
+    "998": {
+        "pitch": 96,
+        "rhythm": 7
+    },
+    "999": {
+        "pitch": 96,
+        "rhythm": 8
+    },
+    "1000": {
+        "pitch": 96,
+        "rhythm": 12
+    },
+    "1001": {
+        "pitch": 96,
+        "rhythm": 14
+    },
+    "1002": {
+        "pitch": 96,
+        "rhythm": 16
+    },
+    "1003": {
+        "pitch": 97,
+        "rhythm": 1
+    },
+    "1004": {
+        "pitch": 97,
+        "rhythm": 2
+    },
+    "1005": {
+        "pitch": 97,
+        "rhythm": 3
+    },
+    "1006": {
+        "pitch": 97,
+        "rhythm": 4
+    },
+    "1007": {
+        "pitch": 97,
+        "rhythm": 5
+    },
+    "1008": {
+        "pitch": 97,
+        "rhythm": 6
+    },
+    "1009": {
+        "pitch": 97,
+        "rhythm": 8
+    },
+    "1010": {
+        "pitch": 97,
+        "rhythm": 16
+    },
+    "1011": {
+        "pitch": 98,
+        "rhythm": 1
+    },
+    "1012": {
+        "pitch": 98,
+        "rhythm": 2
+    },
+    "1013": {
+        "pitch": 98,
+        "rhythm": 3
+    },
+    "1014": {
+        "pitch": 98,
+        "rhythm": 4
+    },
+    "1015": {
+        "pitch": 98,
+        "rhythm": 5
+    },
+    "1016": {
+        "pitch": 98,
+        "rhythm": 6
+    },
+    "1017": {
+        "pitch": 98,
+        "rhythm": 7
+    },
+    "1018": {
+        "pitch": 98,
+        "rhythm": 8
+    },
+    "1019": {
+        "pitch": 98,
+        "rhythm": 9
+    },
+    "1020": {
+        "pitch": 98,
+        "rhythm": 14
+    },
+    "1021": {
+        "pitch": 98,
+        "rhythm": 16
+    },
+    "1022": {
+        "pitch": 99,
+        "rhythm": 1
+    },
+    "1023": {
+        "pitch": 99,
+        "rhythm": 2
+    },
+    "1024": {
+        "pitch": 99,
+        "rhythm": 4
+    },
+    "1025": {
+        "pitch": 99,
+        "rhythm": 5
+    },
+    "1026": {
+        "pitch": 99,
+        "rhythm": 6
+    },
+    "1027": {
+        "pitch": 99,
+        "rhythm": 12
+    },
+    "1028": {
+        "pitch": 99,
+        "rhythm": 16
+    },
+    "1029": {
+        "pitch": 100,
+        "rhythm": 1
+    },
+    "1030": {
+        "pitch": 100,
+        "rhythm": 2
+    },
+    "1031": {
+        "pitch": 100,
+        "rhythm": 3
+    },
+    "1032": {
+        "pitch": 100,
+        "rhythm": 4
+    },
+    "1033": {
+        "pitch": 100,
+        "rhythm": 5
+    },
+    "1034": {
+        "pitch": 100,
+        "rhythm": 6
+    },
+    "1035": {
+        "pitch": 100,
+        "rhythm": 8
+    },
+    "1036": {
+        "pitch": 100,
+        "rhythm": 10
+    },
+    "1037": {
+        "pitch": 100,
+        "rhythm": 12
+    },
+    "1038": {
+        "pitch": 100,
+        "rhythm": 16
+    },
+    "1039": {
+        "pitch": 101,
+        "rhythm": 1
+    },
+    "1040": {
+        "pitch": 101,
+        "rhythm": 2
+    },
+    "1041": {
+        "pitch": 101,
+        "rhythm": 3
+    },
+    "1042": {
+        "pitch": 101,
+        "rhythm": 4
+    },
+    "1043": {
+        "pitch": 101,
+        "rhythm": 6
+    },
+    "1044": {
+        "pitch": 101,
+        "rhythm": 12
+    },
+    "1045": {
+        "pitch": 101,
+        "rhythm": 16
+    },
+    "1046": {
+        "pitch": 102,
+        "rhythm": 1
+    },
+    "1047": {
+        "pitch": 102,
+        "rhythm": 2
+    },
+    "1048": {
+        "pitch": 102,
+        "rhythm": 3
+    },
+    "1049": {
+        "pitch": 102,
+        "rhythm": 4
+    },
+    "1050": {
+        "pitch": 102,
+        "rhythm": 6
+    },
+    "1051": {
+        "pitch": 102,
+        "rhythm": 8
+    },
+    "1052": {
+        "pitch": 102,
+        "rhythm": 16
+    },
+    "1053": {
+        "pitch": 103,
+        "rhythm": 1
+    },
+    "1054": {
+        "pitch": 103,
+        "rhythm": 2
+    },
+    "1055": {
+        "pitch": 103,
+        "rhythm": 3
+    },
+    "1056": {
+        "pitch": 103,
+        "rhythm": 4
+    },
+    "1057": {
+        "pitch": 103,
+        "rhythm": 5
+    },
+    "1058": {
+        "pitch": 103,
+        "rhythm": 7
+    },
+    "1059": {
+        "pitch": 103,
+        "rhythm": 8
+    },
+    "1060": {
+        "pitch": 103,
+        "rhythm": 16
+    },
+    "1061": {
+        "pitch": 104,
+        "rhythm": 1
+    },
+    "1062": {
+        "pitch": 104,
+        "rhythm": 2
+    },
+    "1063": {
+        "pitch": 105,
+        "rhythm": 1
+    },
+    "1064": {
+        "pitch": 105,
+        "rhythm": 2
+    },
+    "1065": {
+        "pitch": 105,
+        "rhythm": 4
+    },
+    "1066": {
+        "pitch": 105,
+        "rhythm": 6
+    },
+    "1067": {
+        "pitch": 106,
+        "rhythm": 1
+    },
+    "1068": {
+        "pitch": 106,
+        "rhythm": 2
+    },
+    "1069": {
+        "pitch": 107,
+        "rhythm": 1
+    },
+    "1070": {
+        "pitch": 107,
+        "rhythm": 2
+    },
+    "1071": {
+        "pitch": 107,
+        "rhythm": 4
+    },
+    "1072": {
+        "pitch": 108,
+        "rhythm": 1
+    },
+    "1073": {
+        "pitch": 108,
+        "rhythm": 2
+    },
+    "1074": {
+        "pitch": 108,
+        "rhythm": 4
+    },
+    "1075": {
+        "pitch": 109,
+        "rhythm": 1
+    },
+    "1076": {
+        "pitch": 111,
+        "rhythm": 1
+    },
+    "1077": {
+        "pitch": 112,
+        "rhythm": 1
+    },
+    "1078": {
+        "pitch": 256,
+        "rhythm": 1
+    },
+    "1079": {
+        "pitch": 256,
+        "rhythm": 2
+    },
+    "1080": {
+        "pitch": 256,
+        "rhythm": 3
+    },
+    "1081": {
+        "pitch": 256,
+        "rhythm": 4
+    },
+    "1082": {
+        "pitch": 256,
+        "rhythm": 5
+    },
+    "1083": {
+        "pitch": 256,
+        "rhythm": 6
+    },
+    "1084": {
+        "pitch": 256,
+        "rhythm": 7
+    },
+    "1085": {
+        "pitch": 256,
+        "rhythm": 8
+    },
+    "1086": {
+        "pitch": 256,
+        "rhythm": 9
+    },
+    "1087": {
+        "pitch": 256,
+        "rhythm": 10
+    },
+    "1088": {
+        "pitch": 256,
+        "rhythm": 11
+    },
+    "1089": {
+        "pitch": 256,
+        "rhythm": 12
+    },
+    "1090": {
+        "pitch": 256,
+        "rhythm": 13
+    },
+    "1091": {
+        "pitch": 256,
+        "rhythm": 14
+    },
+    "1092": {
+        "pitch": 256,
+        "rhythm": 15
+    },
+    "1093": {
+        "pitch": 256,
+        "rhythm": 16
+    }
+}
