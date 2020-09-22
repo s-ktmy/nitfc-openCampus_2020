@@ -24,9 +24,12 @@ class Ui_MainWindow(object):
         self.groupBox.setGeometry(QtCore.QRect(719, 10, 271, 461))
         self.groupBox.setObjectName("groupBox")
         self.startButton = QtWidgets.QPushButton(self.groupBox)
-        self.startButton.setGeometry(QtCore.QRect(10, 400, 251, 51))
+        self.startButton.setGeometry(QtCore.QRect(10, 330, 251, 51))
         self.startButton.setCheckable(True)
         self.startButton.setObjectName("startButton")
+        self.playButton = QtWidgets.QPushButton(self.groupBox)
+        self.playButton.setGeometry(QtCore.QRect(10, 400, 251, 51))
+        self.playButton.setObjectName("playButton")
         self.widget = QtWidgets.QWidget(self.centralwidget)
         self.widget.setGeometry(QtCore.QRect(10, 10, 701, 461))
         palette = QtGui.QPalette()
@@ -190,6 +193,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.groupBox.setTitle(_translate("MainWindow", "GroupBox"))
         self.startButton.setText(_translate("MainWindow", "Start"))
+        self.playButton.setText(_translate("MainWindow", "Play"))
 
 
 if __name__ == "__main__":

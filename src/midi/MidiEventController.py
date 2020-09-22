@@ -48,3 +48,9 @@ class MidiEventController:
         if evType == EV_NOTE_OFF:
             self.player.note_off(note, velocity)
             self.drawer.noteOff(note)
+
+    def playNote(self, pitch, velocity=127):
+        self.player.note_on(pitch, velocity)
+
+    def stopNote(self, pitch):
+        self.player.note_off(pitch)

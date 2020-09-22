@@ -10,10 +10,6 @@ class centralWidget:
         self.widget = QtWidgets.QWidget(parent)
         self.widget.setObjectName(name)
 
-        self.midiInputTimer = QtCore.QTimer(parent)
-        self.midiInputTimer.setInterval(MIDIINPUT_INTERVAL_TIME)
-        self.midiInputTimer.setSingleShot(False)
-
         self.logViewerWidget = logViewerWidget(
             parent=self.widget,
             name="logViewer",
@@ -22,6 +18,7 @@ class centralWidget:
 
         self.pianoRollWidget = pianoRollWidget(
             parent=self.widget,
+            parentObj=self,
             name="pianoRoll",
             pos=QtCore.QRect(10, 10, 701, 501),
             logger=self.logViewerWidget
@@ -35,19 +32,31 @@ class centralWidget:
             logger=self.logViewerWidget
         )
 
-        self.startButton = QtWidgets.QPushButton(self.configWidget.widget)
-        self.startButton.setGeometry(QtCore.QRect(10, 440, 251, 51))
-        self.startButton.setCheckable(True)
-        self.startButton.setText("Start")
-        self.startButton.clicked.connect(self.onPushedStartButton)
-
         self.MidiInputListener = MidiInputListener(
             parent=self.widget,
             logger=self.logViewerWidget,
             drawer=self.pianoRollWidget
         )
 
+        self.midiInputTimer = QtCore.QTimer(parent)
+        self.midiInputTimer.setInterval(MIDIINPUT_INTERVAL_TIME)
+        self.midiInputTimer.setSingleShot(False)
+
         self.midiInputTimer.timeout.connect(self.MidiInputListener)
+
+        self.pianoRollWidget.setMidiPlayer(self.MidiInputListener.midi_output)
+
+        self.startButton = QtWidgets.QPushButton(self.configWidget.widget)
+        self.startButton.setGeometry(QtCore.QRect(10, 440, 251, 51))
+        self.startButton.setCheckable(True)
+        self.startButton.setText("Start")
+        self.startButton.clicked.connect(self.onPushedStartButton)
+
+        self.startButton = QtWidgets.QPushButton(self.configWidget.widget)
+        self.startButton.setGeometry(QtCore.QRect(10, 370, 251, 51))
+        self.startButton.setCheckable(True)
+        self.startButton.setText("Play")
+        self.startButton.clicked.connect(self.onPushedPlayButton)
 
     # すべてのタイマーを一斉に動かす
     def play(self):
@@ -65,6 +74,5 @@ class centralWidget:
         self.stop()
         self.play()
 
-
-
-
+    def onPushedPlayButton(self):
+        self.pianoRollWidget.songPlay()
